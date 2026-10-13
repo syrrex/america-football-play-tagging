@@ -115,7 +115,6 @@ jupyter lab Play_Analysis/evaluation/main_evaluation.ipynb
 2. Run the end-to-end demo for one clip: [`Pipeline/pipeline.ipynb`](Pipeline/pipeline.ipynb)
 3. Track all clips and evaluate the taggers: [`Player_Tracking/`](Player_Tracking/README.md), [`Play_Analysis/`](Play_Analysis/README.md)
 
-[Platzhalter: link to released model weights, if you decide to publish them]
 
 ## Repository structure
 
@@ -143,5 +142,3 @@ Each module has its own README with scripts, experiments and result folders.
 ---
 
 **Master's thesis**, *From Broadcast to Bird's-Eye: A Pipeline for Automated Tactical Annotation in Amateur American Football*. Graz University of Technology, Institute of Machine Learning and Neural Computation. Defense: 12/2026.
-
-**[Your Name]** · [LinkedIn](https://www.linkedin.com/in/[your-profile]) · [your.email@example.com](mailto:[your.email@example.com])
