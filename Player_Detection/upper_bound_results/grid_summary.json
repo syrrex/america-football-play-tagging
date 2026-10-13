@@ -1,0 +1,6082 @@
+{
+  "coco_yolo11n_640": {
+    "starting_point": "coco",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.0343,
+        "mAP50-95": 0.0127,
+        "precision": 0.0434,
+        "recall": 0.1871,
+        "ms_per_img": 52.9,
+        "fps": 18.9
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.0772,
+          "mAP50-95": 0.0333,
+          "precision": 0.055,
+          "recall": 0.7876
+        },
+        "oline": {
+          "mAP50": 0.0944,
+          "mAP50-95": 0.0301,
+          "precision": 0.1619,
+          "recall": 0.1481
+        },
+        "qb": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "ref": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "skill": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.6349,
+          "mAP50-95": 0.3597,
+          "precision": 0.5644,
+          "recall": 0.5625,
+          "ms_per_img": 117.98,
+          "fps": 8.5
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.7424,
+            "mAP50-95": 0.4122,
+            "precision": 0.5986,
+            "recall": 0.8058
+          },
+          "oline": {
+            "mAP50": 0.5964,
+            "mAP50-95": 0.2831,
+            "precision": 0.6784,
+            "recall": 0.4124
+          },
+          "qb": {
+            "mAP50": 0.1521,
+            "mAP50-95": 0.0877,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ref": {
+            "mAP50": 0.933,
+            "mAP50-95": 0.5108,
+            "precision": 0.8158,
+            "recall": 0.9016
+          },
+          "skill": {
+            "mAP50": 0.7507,
+            "mAP50-95": 0.5045,
+            "precision": 0.7295,
+            "recall": 0.6927
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.6353,
+          "mAP50-95": 0.3744,
+          "precision": 0.6066,
+          "recall": 0.623,
+          "ms_per_img": 134.56,
+          "fps": 7.4
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.6669,
+            "mAP50-95": 0.3804,
+            "precision": 0.5886,
+            "recall": 0.697
+          },
+          "oline": {
+            "mAP50": 0.6571,
+            "mAP50-95": 0.3571,
+            "precision": 0.529,
+            "recall": 0.7059
+          },
+          "qb": {
+            "mAP50": 0.192,
+            "mAP50-95": 0.1215,
+            "precision": 0.6602,
+            "recall": 0.0455
+          },
+          "ref": {
+            "mAP50": 0.9101,
+            "mAP50-95": 0.5093,
+            "precision": 0.6323,
+            "recall": 0.9145
+          },
+          "skill": {
+            "mAP50": 0.7503,
+            "mAP50-95": 0.5038,
+            "precision": 0.623,
+            "recall": 0.7523
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.6357,
+          "mAP50-95": 0.3691,
+          "precision": 0.5581,
+          "recall": 0.6253,
+          "ms_per_img": 120.37,
+          "fps": 8.3
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.7159,
+            "mAP50-95": 0.4117,
+            "precision": 0.5387,
+            "recall": 0.7671
+          },
+          "oline": {
+            "mAP50": 0.6139,
+            "mAP50-95": 0.2981,
+            "precision": 0.5049,
+            "recall": 0.6624
+          },
+          "qb": {
+            "mAP50": 0.1886,
+            "mAP50-95": 0.1117,
+            "precision": 0.4212,
+            "recall": 0.0727
+          },
+          "ref": {
+            "mAP50": 0.8946,
+            "mAP50-95": 0.527,
+            "precision": 0.6196,
+            "recall": 0.8908
+          },
+          "skill": {
+            "mAP50": 0.7656,
+            "mAP50-95": 0.497,
+            "precision": 0.7063,
+            "recall": 0.7333
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.6161,
+          "mAP50-95": 0.3464,
+          "precision": 0.5311,
+          "recall": 0.5343,
+          "ms_per_img": 121.91,
+          "fps": 8.2
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.7689,
+            "mAP50-95": 0.417,
+            "precision": 0.6396,
+            "recall": 0.7085
+          },
+          "oline": {
+            "mAP50": 0.6117,
+            "mAP50-95": 0.3104,
+            "precision": 0.6115,
+            "recall": 0.5031
+          },
+          "qb": {
+            "mAP50": 0.1198,
+            "mAP50-95": 0.0569,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ref": {
+            "mAP50": 0.8801,
+            "mAP50-95": 0.4833,
+            "precision": 0.7616,
+            "recall": 0.8198
+          },
+          "skill": {
+            "mAP50": 0.6999,
+            "mAP50-95": 0.4646,
+            "precision": 0.6428,
+            "recall": 0.6402
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.6286,
+          "mAP50-95": 0.3499,
+          "precision": 0.5495,
+          "recall": 0.5723,
+          "ms_per_img": 125.62,
+          "fps": 8.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.7097,
+            "mAP50-95": 0.3972,
+            "precision": 0.7236,
+            "recall": 0.5806
+          },
+          "oline": {
+            "mAP50": 0.6936,
+            "mAP50-95": 0.3379,
+            "precision": 0.625,
+            "recall": 0.72
+          },
+          "qb": {
+            "mAP50": 0.1096,
+            "mAP50-95": 0.066,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ref": {
+            "mAP50": 0.9058,
+            "mAP50-95": 0.4783,
+            "precision": 0.7334,
+            "recall": 0.8563
+          },
+          "skill": {
+            "mAP50": 0.7242,
+            "mAP50-95": 0.4699,
+            "precision": 0.6657,
+            "recall": 0.7048
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.6301,
+        "mAP50-95": 0.3599,
+        "precision": 0.5619,
+        "recall": 0.5835,
+        "ms_per_img": 124.088,
+        "fps": 8.08
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.7208,
+          "mAP50-95": 0.4037,
+          "precision": 0.6178,
+          "recall": 0.7118
+        },
+        "oline": {
+          "mAP50": 0.6345,
+          "mAP50-95": 0.3173,
+          "precision": 0.5898,
+          "recall": 0.6008
+        },
+        "qb": {
+          "mAP50": 0.1524,
+          "mAP50-95": 0.0888,
+          "precision": 0.2163,
+          "recall": 0.0236
+        },
+        "ref": {
+          "mAP50": 0.9047,
+          "mAP50-95": 0.5017,
+          "precision": 0.7125,
+          "recall": 0.8766
+        },
+        "skill": {
+          "mAP50": 0.7381,
+          "mAP50-95": 0.488,
+          "precision": 0.6735,
+          "recall": 0.7047
+        }
+      }
+    }
+  },
+  "coco_yolo11n_1280": {
+    "starting_point": "coco",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.0321,
+        "mAP50-95": 0.0125,
+        "precision": 0.6214,
+        "recall": 0.1092,
+        "ms_per_img": 55.36,
+        "fps": 18.1
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.0973,
+          "mAP50-95": 0.0471,
+          "precision": 0.1072,
+          "recall": 0.5458
+        },
+        "oline": {
+          "mAP50": 0.0631,
+          "mAP50-95": 0.0153,
+          "precision": 1.0,
+          "recall": 0.0
+        },
+        "qb": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "ref": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 1.0,
+          "recall": 0.0
+        },
+        "skill": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 1.0,
+          "recall": 0.0
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.7292,
+          "mAP50-95": 0.4787,
+          "precision": 0.8517,
+          "recall": 0.6527,
+          "ms_per_img": 195.08,
+          "fps": 5.1
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.8506,
+            "mAP50-95": 0.5668,
+            "precision": 0.8002,
+            "recall": 0.7838
+          },
+          "oline": {
+            "mAP50": 0.8146,
+            "mAP50-95": 0.5197,
+            "precision": 0.7213,
+            "recall": 0.8144
+          },
+          "qb": {
+            "mAP50": 0.1645,
+            "mAP50-95": 0.1022,
+            "precision": 1.0,
+            "recall": 0.0
+          },
+          "ref": {
+            "mAP50": 0.9615,
+            "mAP50-95": 0.5759,
+            "precision": 0.9349,
+            "recall": 0.959
+          },
+          "skill": {
+            "mAP50": 0.8545,
+            "mAP50-95": 0.6288,
+            "precision": 0.802,
+            "recall": 0.7061
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.8508,
+          "mAP50-95": 0.5793,
+          "precision": 0.7646,
+          "recall": 0.7819,
+          "ms_per_img": 197.16,
+          "fps": 5.1
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9276,
+            "mAP50-95": 0.6344,
+            "precision": 0.7462,
+            "recall": 0.8961
+          },
+          "oline": {
+            "mAP50": 0.9072,
+            "mAP50-95": 0.6071,
+            "precision": 0.6747,
+            "recall": 0.9216
+          },
+          "qb": {
+            "mAP50": 0.5734,
+            "mAP50-95": 0.4023,
+            "precision": 0.753,
+            "recall": 0.2727
+          },
+          "ref": {
+            "mAP50": 0.9703,
+            "mAP50-95": 0.608,
+            "precision": 0.9108,
+            "recall": 0.9658
+          },
+          "skill": {
+            "mAP50": 0.8754,
+            "mAP50-95": 0.6446,
+            "precision": 0.7383,
+            "recall": 0.8532
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.7831,
+          "mAP50-95": 0.5242,
+          "precision": 0.752,
+          "recall": 0.7208,
+          "ms_per_img": 277.01,
+          "fps": 3.6
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9199,
+            "mAP50-95": 0.5925,
+            "precision": 0.7935,
+            "recall": 0.9178
+          },
+          "oline": {
+            "mAP50": 0.8216,
+            "mAP50-95": 0.5333,
+            "precision": 0.6512,
+            "recall": 0.7835
+          },
+          "qb": {
+            "mAP50": 0.3606,
+            "mAP50-95": 0.2641,
+            "precision": 0.6785,
+            "recall": 0.1429
+          },
+          "ref": {
+            "mAP50": 0.9658,
+            "mAP50-95": 0.6291,
+            "precision": 0.8889,
+            "recall": 0.9414
+          },
+          "skill": {
+            "mAP50": 0.8476,
+            "mAP50-95": 0.602,
+            "precision": 0.7477,
+            "recall": 0.8185
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.7726,
+          "mAP50-95": 0.5098,
+          "precision": 0.8554,
+          "recall": 0.6847,
+          "ms_per_img": 250.56,
+          "fps": 4.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.8948,
+            "mAP50-95": 0.5704,
+            "precision": 0.8309,
+            "recall": 0.8206
+          },
+          "oline": {
+            "mAP50": 0.8312,
+            "mAP50-95": 0.5551,
+            "precision": 0.682,
+            "recall": 0.8144
+          },
+          "qb": {
+            "mAP50": 0.3102,
+            "mAP50-95": 0.2089,
+            "precision": 1.0,
+            "recall": 0.0
+          },
+          "ref": {
+            "mAP50": 0.9834,
+            "mAP50-95": 0.5931,
+            "precision": 0.9586,
+            "recall": 0.9912
+          },
+          "skill": {
+            "mAP50": 0.8435,
+            "mAP50-95": 0.6215,
+            "precision": 0.8057,
+            "recall": 0.7974
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.7327,
+          "mAP50-95": 0.4799,
+          "precision": 0.6549,
+          "recall": 0.6714,
+          "ms_per_img": 249.31,
+          "fps": 4.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.8631,
+            "mAP50-95": 0.5322,
+            "precision": 0.7972,
+            "recall": 0.7834
+          },
+          "oline": {
+            "mAP50": 0.874,
+            "mAP50-95": 0.5759,
+            "precision": 0.7879,
+            "recall": 0.84
+          },
+          "qb": {
+            "mAP50": 0.1306,
+            "mAP50-95": 0.0753,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ref": {
+            "mAP50": 0.9649,
+            "mAP50-95": 0.6078,
+            "precision": 0.9241,
+            "recall": 0.9623
+          },
+          "skill": {
+            "mAP50": 0.8309,
+            "mAP50-95": 0.6082,
+            "precision": 0.7653,
+            "recall": 0.7714
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.7737,
+        "mAP50-95": 0.5144,
+        "precision": 0.7757,
+        "recall": 0.7023,
+        "ms_per_img": 233.824,
+        "fps": 4.36
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.8912,
+          "mAP50-95": 0.5793,
+          "precision": 0.7936,
+          "recall": 0.8403
+        },
+        "oline": {
+          "mAP50": 0.8497,
+          "mAP50-95": 0.5582,
+          "precision": 0.7034,
+          "recall": 0.8348
+        },
+        "qb": {
+          "mAP50": 0.3079,
+          "mAP50-95": 0.2106,
+          "precision": 0.6863,
+          "recall": 0.0831
+        },
+        "ref": {
+          "mAP50": 0.9692,
+          "mAP50-95": 0.6028,
+          "precision": 0.9235,
+          "recall": 0.9639
+        },
+        "skill": {
+          "mAP50": 0.8504,
+          "mAP50-95": 0.621,
+          "precision": 0.7718,
+          "recall": 0.7893
+        }
+      }
+    }
+  },
+  "coco_yolo11s_640": {
+    "starting_point": "coco",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.0416,
+        "mAP50-95": 0.0182,
+        "precision": 0.042,
+        "recall": 0.1999,
+        "ms_per_img": 47.67,
+        "fps": 21.0
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.1255,
+          "mAP50-95": 0.0588,
+          "precision": 0.0648,
+          "recall": 0.8684
+        },
+        "oline": {
+          "mAP50": 0.0612,
+          "mAP50-95": 0.0238,
+          "precision": 0.1046,
+          "recall": 0.0791
+        },
+        "qb": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "ref": {
+          "mAP50": 0.0215,
+          "mAP50-95": 0.0085,
+          "precision": 0.0407,
+          "recall": 0.052
+        },
+        "skill": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9166,
+          "mAP50-95": 0.5753,
+          "precision": 0.8454,
+          "recall": 0.8583,
+          "ms_per_img": 144.95,
+          "fps": 6.9
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9225,
+            "mAP50-95": 0.5792,
+            "precision": 0.8184,
+            "recall": 0.8638
+          },
+          "oline": {
+            "mAP50": 0.8318,
+            "mAP50-95": 0.4816,
+            "precision": 0.7641,
+            "recall": 0.7682
+          },
+          "qb": {
+            "mAP50": 0.9008,
+            "mAP50-95": 0.5762,
+            "precision": 0.855,
+            "recall": 0.8043
+          },
+          "ref": {
+            "mAP50": 0.9866,
+            "mAP50-95": 0.5729,
+            "precision": 0.8998,
+            "recall": 0.9836
+          },
+          "skill": {
+            "mAP50": 0.9414,
+            "mAP50-95": 0.6667,
+            "precision": 0.8898,
+            "recall": 0.8716
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9358,
+          "mAP50-95": 0.6151,
+          "precision": 0.9089,
+          "recall": 0.8641,
+          "ms_per_img": 184.66,
+          "fps": 5.4
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9148,
+            "mAP50-95": 0.5962,
+            "precision": 0.8812,
+            "recall": 0.8658
+          },
+          "oline": {
+            "mAP50": 0.927,
+            "mAP50-95": 0.5818,
+            "precision": 0.9243,
+            "recall": 0.8235
+          },
+          "qb": {
+            "mAP50": 0.9278,
+            "mAP50-95": 0.6224,
+            "precision": 0.8476,
+            "recall": 0.8636
+          },
+          "ref": {
+            "mAP50": 0.9855,
+            "mAP50-95": 0.6068,
+            "precision": 0.9653,
+            "recall": 0.9513
+          },
+          "skill": {
+            "mAP50": 0.924,
+            "mAP50-95": 0.6683,
+            "precision": 0.9263,
+            "recall": 0.8165
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9063,
+          "mAP50-95": 0.5821,
+          "precision": 0.8624,
+          "recall": 0.8316,
+          "ms_per_img": 172.9,
+          "fps": 5.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9353,
+            "mAP50-95": 0.6022,
+            "precision": 0.8332,
+            "recall": 0.9122
+          },
+          "oline": {
+            "mAP50": 0.8643,
+            "mAP50-95": 0.4994,
+            "precision": 0.8714,
+            "recall": 0.6983
+          },
+          "qb": {
+            "mAP50": 0.8652,
+            "mAP50-95": 0.5669,
+            "precision": 0.7696,
+            "recall": 0.8571
+          },
+          "ref": {
+            "mAP50": 0.9521,
+            "mAP50-95": 0.606,
+            "precision": 0.9374,
+            "recall": 0.8807
+          },
+          "skill": {
+            "mAP50": 0.9147,
+            "mAP50-95": 0.6362,
+            "precision": 0.9003,
+            "recall": 0.8095
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9225,
+          "mAP50-95": 0.5877,
+          "precision": 0.8593,
+          "recall": 0.8627,
+          "ms_per_img": 168.71,
+          "fps": 5.9
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.919,
+            "mAP50-95": 0.5604,
+            "precision": 0.8461,
+            "recall": 0.8879
+          },
+          "oline": {
+            "mAP50": 0.8742,
+            "mAP50-95": 0.4758,
+            "precision": 0.7664,
+            "recall": 0.8454
+          },
+          "qb": {
+            "mAP50": 0.9268,
+            "mAP50-95": 0.6509,
+            "precision": 0.8329,
+            "recall": 0.8095
+          },
+          "ref": {
+            "mAP50": 0.9693,
+            "mAP50-95": 0.5804,
+            "precision": 0.9384,
+            "recall": 0.9437
+          },
+          "skill": {
+            "mAP50": 0.9229,
+            "mAP50-95": 0.6711,
+            "precision": 0.9127,
+            "recall": 0.8269
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9042,
+          "mAP50-95": 0.5556,
+          "precision": 0.8961,
+          "recall": 0.8075,
+          "ms_per_img": 208.46,
+          "fps": 4.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.8957,
+            "mAP50-95": 0.5266,
+            "precision": 0.897,
+            "recall": 0.8065
+          },
+          "oline": {
+            "mAP50": 0.9055,
+            "mAP50-95": 0.5309,
+            "precision": 0.8638,
+            "recall": 0.8246
+          },
+          "qb": {
+            "mAP50": 0.8475,
+            "mAP50-95": 0.5195,
+            "precision": 0.838,
+            "recall": 0.7397
+          },
+          "ref": {
+            "mAP50": 0.9686,
+            "mAP50-95": 0.5648,
+            "precision": 0.9622,
+            "recall": 0.9057
+          },
+          "skill": {
+            "mAP50": 0.9037,
+            "mAP50-95": 0.6364,
+            "precision": 0.9195,
+            "recall": 0.7613
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9171,
+        "mAP50-95": 0.5832,
+        "precision": 0.8744,
+        "recall": 0.8448,
+        "ms_per_img": 175.936,
+        "fps": 5.76
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9175,
+          "mAP50-95": 0.5729,
+          "precision": 0.8552,
+          "recall": 0.8672
+        },
+        "oline": {
+          "mAP50": 0.8806,
+          "mAP50-95": 0.5139,
+          "precision": 0.838,
+          "recall": 0.792
+        },
+        "qb": {
+          "mAP50": 0.8936,
+          "mAP50-95": 0.5872,
+          "precision": 0.8286,
+          "recall": 0.8148
+        },
+        "ref": {
+          "mAP50": 0.9724,
+          "mAP50-95": 0.5862,
+          "precision": 0.9406,
+          "recall": 0.933
+        },
+        "skill": {
+          "mAP50": 0.9213,
+          "mAP50-95": 0.6557,
+          "precision": 0.9097,
+          "recall": 0.8172
+        }
+      }
+    }
+  },
+  "coco_yolo11s_1280": {
+    "starting_point": "coco",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.0265,
+        "mAP50-95": 0.0125,
+        "precision": 0.2268,
+        "recall": 0.1268,
+        "ms_per_img": 51.84,
+        "fps": 19.3
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.123,
+          "mAP50-95": 0.0608,
+          "precision": 0.1339,
+          "recall": 0.6338
+        },
+        "oline": {
+          "mAP50": 0.0093,
+          "mAP50-95": 0.0019,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "qb": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "ref": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 1.0,
+          "recall": 0.0
+        },
+        "skill": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.953,
+          "mAP50-95": 0.646,
+          "precision": 0.9357,
+          "recall": 0.8756,
+          "ms_per_img": 115.02,
+          "fps": 8.7
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9621,
+            "mAP50-95": 0.6744,
+            "precision": 0.9046,
+            "recall": 0.9281
+          },
+          "oline": {
+            "mAP50": 0.9324,
+            "mAP50-95": 0.6148,
+            "precision": 0.9209,
+            "recall": 0.8866
+          },
+          "qb": {
+            "mAP50": 0.9359,
+            "mAP50-95": 0.6041,
+            "precision": 0.9428,
+            "recall": 0.7496
+          },
+          "ref": {
+            "mAP50": 0.9871,
+            "mAP50-95": 0.6142,
+            "precision": 0.973,
+            "recall": 0.9918
+          },
+          "skill": {
+            "mAP50": 0.9475,
+            "mAP50-95": 0.7224,
+            "precision": 0.9372,
+            "recall": 0.8217
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9828,
+          "mAP50-95": 0.7018,
+          "precision": 0.9196,
+          "recall": 0.9556,
+          "ms_per_img": 114.76,
+          "fps": 8.7
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9827,
+            "mAP50-95": 0.6868,
+            "precision": 0.9275,
+            "recall": 0.942
+          },
+          "oline": {
+            "mAP50": 0.9817,
+            "mAP50-95": 0.6688,
+            "precision": 0.9295,
+            "recall": 0.951
+          },
+          "qb": {
+            "mAP50": 0.9888,
+            "mAP50-95": 0.7499,
+            "precision": 0.8351,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9866,
+            "mAP50-95": 0.6576,
+            "precision": 0.9542,
+            "recall": 0.9829
+          },
+          "skill": {
+            "mAP50": 0.9739,
+            "mAP50-95": 0.746,
+            "precision": 0.9516,
+            "recall": 0.9022
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9521,
+          "mAP50-95": 0.6758,
+          "precision": 0.9353,
+          "recall": 0.8683,
+          "ms_per_img": 155.26,
+          "fps": 6.4
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9818,
+            "mAP50-95": 0.689,
+            "precision": 0.9334,
+            "recall": 0.9604
+          },
+          "oline": {
+            "mAP50": 0.9393,
+            "mAP50-95": 0.6595,
+            "precision": 0.887,
+            "recall": 0.8454
+          },
+          "qb": {
+            "mAP50": 0.8954,
+            "mAP50-95": 0.6366,
+            "precision": 0.9182,
+            "recall": 0.7619
+          },
+          "ref": {
+            "mAP50": 0.9899,
+            "mAP50-95": 0.6822,
+            "precision": 0.9829,
+            "recall": 0.9641
+          },
+          "skill": {
+            "mAP50": 0.9539,
+            "mAP50-95": 0.7119,
+            "precision": 0.9551,
+            "recall": 0.8099
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.969,
+          "mAP50-95": 0.6808,
+          "precision": 0.933,
+          "recall": 0.9189,
+          "ms_per_img": 207.49,
+          "fps": 4.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9712,
+            "mAP50-95": 0.664,
+            "precision": 0.9394,
+            "recall": 0.9032
+          },
+          "oline": {
+            "mAP50": 0.9503,
+            "mAP50-95": 0.6505,
+            "precision": 0.9513,
+            "recall": 0.8557
+          },
+          "qb": {
+            "mAP50": 0.9802,
+            "mAP50-95": 0.7039,
+            "precision": 0.8728,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9898,
+            "mAP50-95": 0.6538,
+            "precision": 0.9911,
+            "recall": 0.9897
+          },
+          "skill": {
+            "mAP50": 0.9536,
+            "mAP50-95": 0.7319,
+            "precision": 0.9102,
+            "recall": 0.8462
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9424,
+          "mAP50-95": 0.6388,
+          "precision": 0.9311,
+          "recall": 0.8499,
+          "ms_per_img": 180.28,
+          "fps": 5.5
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9657,
+            "mAP50-95": 0.6353,
+            "precision": 0.9125,
+            "recall": 0.9135
+          },
+          "oline": {
+            "mAP50": 0.9704,
+            "mAP50-95": 0.6676,
+            "precision": 0.9582,
+            "recall": 0.9161
+          },
+          "qb": {
+            "mAP50": 0.8537,
+            "mAP50-95": 0.5363,
+            "precision": 0.9137,
+            "recall": 0.619
+          },
+          "ref": {
+            "mAP50": 0.9792,
+            "mAP50-95": 0.6406,
+            "precision": 0.9611,
+            "recall": 0.9321
+          },
+          "skill": {
+            "mAP50": 0.9428,
+            "mAP50-95": 0.7143,
+            "precision": 0.9102,
+            "recall": 0.8689
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9599,
+        "mAP50-95": 0.6686,
+        "precision": 0.9309,
+        "recall": 0.8937,
+        "ms_per_img": 154.562,
+        "fps": 6.82
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9727,
+          "mAP50-95": 0.6699,
+          "precision": 0.9235,
+          "recall": 0.9294
+        },
+        "oline": {
+          "mAP50": 0.9548,
+          "mAP50-95": 0.6522,
+          "precision": 0.9294,
+          "recall": 0.891
+        },
+        "qb": {
+          "mAP50": 0.9308,
+          "mAP50-95": 0.6462,
+          "precision": 0.8965,
+          "recall": 0.8261
+        },
+        "ref": {
+          "mAP50": 0.9865,
+          "mAP50-95": 0.6497,
+          "precision": 0.9725,
+          "recall": 0.9721
+        },
+        "skill": {
+          "mAP50": 0.9543,
+          "mAP50-95": 0.7253,
+          "precision": 0.9329,
+          "recall": 0.8498
+        }
+      }
+    }
+  },
+  "coco_yolo11m_640": {
+    "starting_point": "coco",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.0391,
+        "mAP50-95": 0.0165,
+        "precision": 0.0412,
+        "recall": 0.2116,
+        "ms_per_img": 46.09,
+        "fps": 21.7
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.1157,
+          "mAP50-95": 0.0548,
+          "precision": 0.0758,
+          "recall": 0.8667
+        },
+        "oline": {
+          "mAP50": 0.072,
+          "mAP50-95": 0.0248,
+          "precision": 0.1146,
+          "recall": 0.1704
+        },
+        "qb": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "ref": {
+          "mAP50": 0.008,
+          "mAP50-95": 0.0028,
+          "precision": 0.0155,
+          "recall": 0.0208
+        },
+        "skill": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9488,
+          "mAP50-95": 0.6203,
+          "precision": 0.9329,
+          "recall": 0.8622,
+          "ms_per_img": 151.49,
+          "fps": 6.6
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9441,
+            "mAP50-95": 0.5976,
+            "precision": 0.9177,
+            "recall": 0.8553
+          },
+          "oline": {
+            "mAP50": 0.8739,
+            "mAP50-95": 0.5136,
+            "precision": 0.847,
+            "recall": 0.7938
+          },
+          "qb": {
+            "mAP50": 0.9823,
+            "mAP50-95": 0.6862,
+            "precision": 0.9635,
+            "recall": 0.8636
+          },
+          "ref": {
+            "mAP50": 0.983,
+            "mAP50-95": 0.6058,
+            "precision": 0.9587,
+            "recall": 0.9918
+          },
+          "skill": {
+            "mAP50": 0.9609,
+            "mAP50-95": 0.6985,
+            "precision": 0.9778,
+            "recall": 0.8064
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9726,
+          "mAP50-95": 0.6524,
+          "precision": 0.9397,
+          "recall": 0.9214,
+          "ms_per_img": 132.46,
+          "fps": 7.5
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9581,
+            "mAP50-95": 0.632,
+            "precision": 0.9358,
+            "recall": 0.8788
+          },
+          "oline": {
+            "mAP50": 0.9396,
+            "mAP50-95": 0.5857,
+            "precision": 0.8926,
+            "recall": 0.8431
+          },
+          "qb": {
+            "mAP50": 0.995,
+            "mAP50-95": 0.7219,
+            "precision": 0.936,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.993,
+            "mAP50-95": 0.619,
+            "precision": 0.9732,
+            "recall": 0.9829
+          },
+          "skill": {
+            "mAP50": 0.9774,
+            "mAP50-95": 0.7031,
+            "precision": 0.9609,
+            "recall": 0.902
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9529,
+          "mAP50-95": 0.6194,
+          "precision": 0.9297,
+          "recall": 0.8738,
+          "ms_per_img": 159.47,
+          "fps": 6.3
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9733,
+            "mAP50-95": 0.658,
+            "precision": 0.947,
+            "recall": 0.9178
+          },
+          "oline": {
+            "mAP50": 0.8837,
+            "mAP50-95": 0.529,
+            "precision": 0.8149,
+            "recall": 0.8247
+          },
+          "qb": {
+            "mAP50": 0.9758,
+            "mAP50-95": 0.6093,
+            "precision": 0.9492,
+            "recall": 0.8903
+          },
+          "ref": {
+            "mAP50": 0.9769,
+            "mAP50-95": 0.6273,
+            "precision": 0.9821,
+            "recall": 0.924
+          },
+          "skill": {
+            "mAP50": 0.9548,
+            "mAP50-95": 0.6732,
+            "precision": 0.9552,
+            "recall": 0.8119
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9508,
+          "mAP50-95": 0.6329,
+          "precision": 0.8778,
+          "recall": 0.8966,
+          "ms_per_img": 152.26,
+          "fps": 6.6
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9315,
+            "mAP50-95": 0.597,
+            "precision": 0.8454,
+            "recall": 0.9058
+          },
+          "oline": {
+            "mAP50": 0.9248,
+            "mAP50-95": 0.5574,
+            "precision": 0.7836,
+            "recall": 0.8959
+          },
+          "qb": {
+            "mAP50": 0.9496,
+            "mAP50-95": 0.6457,
+            "precision": 0.8166,
+            "recall": 0.9048
+          },
+          "ref": {
+            "mAP50": 0.9881,
+            "mAP50-95": 0.6474,
+            "precision": 0.9768,
+            "recall": 0.9469
+          },
+          "skill": {
+            "mAP50": 0.9602,
+            "mAP50-95": 0.7169,
+            "precision": 0.9664,
+            "recall": 0.8297
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9359,
+          "mAP50-95": 0.5956,
+          "precision": 0.8904,
+          "recall": 0.8537,
+          "ms_per_img": 151.73,
+          "fps": 6.6
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9203,
+            "mAP50-95": 0.5631,
+            "precision": 0.8961,
+            "recall": 0.835
+          },
+          "oline": {
+            "mAP50": 0.9308,
+            "mAP50-95": 0.5858,
+            "precision": 0.8581,
+            "recall": 0.89
+          },
+          "qb": {
+            "mAP50": 0.911,
+            "mAP50-95": 0.5589,
+            "precision": 0.8071,
+            "recall": 0.8095
+          },
+          "ref": {
+            "mAP50": 0.9712,
+            "mAP50-95": 0.5958,
+            "precision": 0.9543,
+            "recall": 0.9245
+          },
+          "skill": {
+            "mAP50": 0.9462,
+            "mAP50-95": 0.6743,
+            "precision": 0.9363,
+            "recall": 0.8095
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9522,
+        "mAP50-95": 0.6241,
+        "precision": 0.9141,
+        "recall": 0.8815,
+        "ms_per_img": 149.482,
+        "fps": 6.72
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9455,
+          "mAP50-95": 0.6095,
+          "precision": 0.9084,
+          "recall": 0.8785
+        },
+        "oline": {
+          "mAP50": 0.9106,
+          "mAP50-95": 0.5543,
+          "precision": 0.8392,
+          "recall": 0.8495
+        },
+        "qb": {
+          "mAP50": 0.9627,
+          "mAP50-95": 0.6444,
+          "precision": 0.8945,
+          "recall": 0.8936
+        },
+        "ref": {
+          "mAP50": 0.9824,
+          "mAP50-95": 0.6191,
+          "precision": 0.969,
+          "recall": 0.954
+        },
+        "skill": {
+          "mAP50": 0.9599,
+          "mAP50-95": 0.6932,
+          "precision": 0.9593,
+          "recall": 0.8319
+        }
+      }
+    }
+  },
+  "coco_yolo11m_1280": {
+    "starting_point": "coco",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.0282,
+        "mAP50-95": 0.0129,
+        "precision": 0.6265,
+        "recall": 0.1365,
+        "ms_per_img": 49.65,
+        "fps": 20.1
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.1237,
+          "mAP50-95": 0.0628,
+          "precision": 0.1324,
+          "recall": 0.6827
+        },
+        "oline": {
+          "mAP50": 0.0173,
+          "mAP50-95": 0.0017,
+          "precision": 1.0,
+          "recall": 0.0
+        },
+        "qb": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "ref": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 1.0,
+          "recall": 0.0
+        },
+        "skill": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 1.0,
+          "recall": 0.0
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9331,
+          "mAP50-95": 0.6479,
+          "precision": 0.9201,
+          "recall": 0.8745,
+          "ms_per_img": 302.77,
+          "fps": 3.3
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.965,
+            "mAP50-95": 0.678,
+            "precision": 0.9091,
+            "recall": 0.9365
+          },
+          "oline": {
+            "mAP50": 0.9328,
+            "mAP50-95": 0.631,
+            "precision": 0.9186,
+            "recall": 0.8454
+          },
+          "qb": {
+            "mAP50": 0.8354,
+            "mAP50-95": 0.6078,
+            "precision": 0.8924,
+            "recall": 0.7727
+          },
+          "ref": {
+            "mAP50": 0.985,
+            "mAP50-95": 0.606,
+            "precision": 0.9606,
+            "recall": 0.9754
+          },
+          "skill": {
+            "mAP50": 0.947,
+            "mAP50-95": 0.7165,
+            "precision": 0.9199,
+            "recall": 0.8427
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9623,
+          "mAP50-95": 0.6952,
+          "precision": 0.9191,
+          "recall": 0.9089,
+          "ms_per_img": 314.01,
+          "fps": 3.2
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9629,
+            "mAP50-95": 0.6799,
+            "precision": 0.9241,
+            "recall": 0.8954
+          },
+          "oline": {
+            "mAP50": 0.969,
+            "mAP50-95": 0.6823,
+            "precision": 0.9182,
+            "recall": 0.8803
+          },
+          "qb": {
+            "mAP50": 0.9543,
+            "mAP50-95": 0.7394,
+            "precision": 0.8579,
+            "recall": 0.9545
+          },
+          "ref": {
+            "mAP50": 0.9824,
+            "mAP50-95": 0.6569,
+            "precision": 0.9583,
+            "recall": 0.9915
+          },
+          "skill": {
+            "mAP50": 0.9427,
+            "mAP50-95": 0.7174,
+            "precision": 0.9373,
+            "recall": 0.8226
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9494,
+          "mAP50-95": 0.6717,
+          "precision": 0.9011,
+          "recall": 0.8906,
+          "ms_per_img": 272.68,
+          "fps": 3.7
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9649,
+            "mAP50-95": 0.6875,
+            "precision": 0.9032,
+            "recall": 0.9315
+          },
+          "oline": {
+            "mAP50": 0.9634,
+            "mAP50-95": 0.6811,
+            "precision": 0.9207,
+            "recall": 0.9175
+          },
+          "qb": {
+            "mAP50": 0.8891,
+            "mAP50-95": 0.6206,
+            "precision": 0.8487,
+            "recall": 0.8019
+          },
+          "ref": {
+            "mAP50": 0.9933,
+            "mAP50-95": 0.6711,
+            "precision": 0.9587,
+            "recall": 0.9832
+          },
+          "skill": {
+            "mAP50": 0.9363,
+            "mAP50-95": 0.6979,
+            "precision": 0.8744,
+            "recall": 0.819
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9527,
+          "mAP50-95": 0.6718,
+          "precision": 0.8813,
+          "recall": 0.9162,
+          "ms_per_img": 209.34,
+          "fps": 4.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9469,
+            "mAP50-95": 0.6461,
+            "precision": 0.8613,
+            "recall": 0.9283
+          },
+          "oline": {
+            "mAP50": 0.9554,
+            "mAP50-95": 0.6493,
+            "precision": 0.894,
+            "recall": 0.9072
+          },
+          "qb": {
+            "mAP50": 0.939,
+            "mAP50-95": 0.6986,
+            "precision": 0.786,
+            "recall": 0.9524
+          },
+          "ref": {
+            "mAP50": 0.9879,
+            "mAP50-95": 0.6497,
+            "precision": 0.9626,
+            "recall": 0.9912
+          },
+          "skill": {
+            "mAP50": 0.9344,
+            "mAP50-95": 0.7153,
+            "precision": 0.9026,
+            "recall": 0.802
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9337,
+          "mAP50-95": 0.635,
+          "precision": 0.8703,
+          "recall": 0.8698,
+          "ms_per_img": 218.5,
+          "fps": 4.6
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9531,
+            "mAP50-95": 0.6202,
+            "precision": 0.8719,
+            "recall": 0.8986
+          },
+          "oline": {
+            "mAP50": 0.9603,
+            "mAP50-95": 0.6797,
+            "precision": 0.9042,
+            "recall": 0.92
+          },
+          "qb": {
+            "mAP50": 0.8587,
+            "mAP50-95": 0.5925,
+            "precision": 0.7544,
+            "recall": 0.7318
+          },
+          "ref": {
+            "mAP50": 0.9692,
+            "mAP50-95": 0.5971,
+            "precision": 0.9527,
+            "recall": 0.9508
+          },
+          "skill": {
+            "mAP50": 0.9271,
+            "mAP50-95": 0.6856,
+            "precision": 0.8684,
+            "recall": 0.8476
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9462,
+        "mAP50-95": 0.6643,
+        "precision": 0.8984,
+        "recall": 0.892,
+        "ms_per_img": 263.46,
+        "fps": 3.92
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9586,
+          "mAP50-95": 0.6623,
+          "precision": 0.8939,
+          "recall": 0.9181
+        },
+        "oline": {
+          "mAP50": 0.9562,
+          "mAP50-95": 0.6647,
+          "precision": 0.9111,
+          "recall": 0.8941
+        },
+        "qb": {
+          "mAP50": 0.8953,
+          "mAP50-95": 0.6518,
+          "precision": 0.8279,
+          "recall": 0.8427
+        },
+        "ref": {
+          "mAP50": 0.9836,
+          "mAP50-95": 0.6362,
+          "precision": 0.9586,
+          "recall": 0.9784
+        },
+        "skill": {
+          "mAP50": 0.9375,
+          "mAP50-95": 0.7065,
+          "precision": 0.9005,
+          "recall": 0.8268
+        }
+      }
+    }
+  },
+  "coco_yolo11l_640": {
+    "starting_point": "coco",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.042,
+        "mAP50-95": 0.0186,
+        "precision": 0.0442,
+        "recall": 0.1952,
+        "ms_per_img": 55.03,
+        "fps": 18.2
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.1267,
+          "mAP50-95": 0.0627,
+          "precision": 0.0768,
+          "recall": 0.8836
+        },
+        "oline": {
+          "mAP50": 0.0722,
+          "mAP50-95": 0.0269,
+          "precision": 0.1225,
+          "recall": 0.0751
+        },
+        "qb": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "ref": {
+          "mAP50": 0.0111,
+          "mAP50-95": 0.0034,
+          "precision": 0.0216,
+          "recall": 0.0173
+        },
+        "skill": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9348,
+          "mAP50-95": 0.6021,
+          "precision": 0.8441,
+          "recall": 0.9004,
+          "ms_per_img": 259.66,
+          "fps": 3.9
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9458,
+            "mAP50-95": 0.6071,
+            "precision": 0.8596,
+            "recall": 0.9117
+          },
+          "oline": {
+            "mAP50": 0.8702,
+            "mAP50-95": 0.5176,
+            "precision": 0.8194,
+            "recall": 0.8351
+          },
+          "qb": {
+            "mAP50": 0.9292,
+            "mAP50-95": 0.6031,
+            "precision": 0.6967,
+            "recall": 0.9401
+          },
+          "ref": {
+            "mAP50": 0.9739,
+            "mAP50-95": 0.5942,
+            "precision": 0.9163,
+            "recall": 0.9836
+          },
+          "skill": {
+            "mAP50": 0.9549,
+            "mAP50-95": 0.6887,
+            "precision": 0.9283,
+            "recall": 0.8317
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9635,
+          "mAP50-95": 0.6563,
+          "precision": 0.9244,
+          "recall": 0.8949,
+          "ms_per_img": 180.62,
+          "fps": 5.5
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9484,
+            "mAP50-95": 0.6145,
+            "precision": 0.9556,
+            "recall": 0.8658
+          },
+          "oline": {
+            "mAP50": 0.9448,
+            "mAP50-95": 0.6086,
+            "precision": 0.9459,
+            "recall": 0.8529
+          },
+          "qb": {
+            "mAP50": 0.9762,
+            "mAP50-95": 0.7379,
+            "precision": 0.8012,
+            "recall": 0.9545
+          },
+          "ref": {
+            "mAP50": 0.9903,
+            "mAP50-95": 0.6215,
+            "precision": 0.974,
+            "recall": 0.9573
+          },
+          "skill": {
+            "mAP50": 0.9577,
+            "mAP50-95": 0.6992,
+            "precision": 0.9454,
+            "recall": 0.844
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9427,
+          "mAP50-95": 0.6161,
+          "precision": 0.8986,
+          "recall": 0.8667,
+          "ms_per_img": 177.52,
+          "fps": 5.6
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.968,
+            "mAP50-95": 0.6359,
+            "precision": 0.9166,
+            "recall": 0.9087
+          },
+          "oline": {
+            "mAP50": 0.8877,
+            "mAP50-95": 0.5219,
+            "precision": 0.8723,
+            "recall": 0.7938
+          },
+          "qb": {
+            "mAP50": 0.9371,
+            "mAP50-95": 0.6186,
+            "precision": 0.7891,
+            "recall": 0.9048
+          },
+          "ref": {
+            "mAP50": 0.9818,
+            "mAP50-95": 0.6375,
+            "precision": 0.9824,
+            "recall": 0.9371
+          },
+          "skill": {
+            "mAP50": 0.9389,
+            "mAP50-95": 0.6663,
+            "precision": 0.9325,
+            "recall": 0.7893
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9429,
+          "mAP50-95": 0.6297,
+          "precision": 0.9343,
+          "recall": 0.8809,
+          "ms_per_img": 164.37,
+          "fps": 6.1
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9409,
+            "mAP50-95": 0.598,
+            "precision": 0.9317,
+            "recall": 0.8565
+          },
+          "oline": {
+            "mAP50": 0.8802,
+            "mAP50-95": 0.5389,
+            "precision": 0.9684,
+            "recall": 0.8041
+          },
+          "qb": {
+            "mAP50": 0.9476,
+            "mAP50-95": 0.7066,
+            "precision": 0.844,
+            "recall": 0.9524
+          },
+          "ref": {
+            "mAP50": 0.9904,
+            "mAP50-95": 0.622,
+            "precision": 0.9818,
+            "recall": 0.9558
+          },
+          "skill": {
+            "mAP50": 0.9554,
+            "mAP50-95": 0.683,
+            "precision": 0.9456,
+            "recall": 0.8356
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9366,
+          "mAP50-95": 0.5867,
+          "precision": 0.9371,
+          "recall": 0.8512,
+          "ms_per_img": 182.74,
+          "fps": 5.5
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9311,
+            "mAP50-95": 0.5586,
+            "precision": 0.8985,
+            "recall": 0.8566
+          },
+          "oline": {
+            "mAP50": 0.9497,
+            "mAP50-95": 0.5981,
+            "precision": 0.9154,
+            "recall": 0.89
+          },
+          "qb": {
+            "mAP50": 0.8774,
+            "mAP50-95": 0.5329,
+            "precision": 0.9456,
+            "recall": 0.7619
+          },
+          "ref": {
+            "mAP50": 0.9777,
+            "mAP50-95": 0.5878,
+            "precision": 0.9708,
+            "recall": 0.9421
+          },
+          "skill": {
+            "mAP50": 0.9471,
+            "mAP50-95": 0.6559,
+            "precision": 0.9548,
+            "recall": 0.8056
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9441,
+        "mAP50-95": 0.6182,
+        "precision": 0.9077,
+        "recall": 0.8788,
+        "ms_per_img": 192.982,
+        "fps": 5.32
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9468,
+          "mAP50-95": 0.6028,
+          "precision": 0.9124,
+          "recall": 0.8799
+        },
+        "oline": {
+          "mAP50": 0.9065,
+          "mAP50-95": 0.557,
+          "precision": 0.9043,
+          "recall": 0.8352
+        },
+        "qb": {
+          "mAP50": 0.9335,
+          "mAP50-95": 0.6398,
+          "precision": 0.8153,
+          "recall": 0.9027
+        },
+        "ref": {
+          "mAP50": 0.9828,
+          "mAP50-95": 0.6126,
+          "precision": 0.9651,
+          "recall": 0.9552
+        },
+        "skill": {
+          "mAP50": 0.9508,
+          "mAP50-95": 0.6786,
+          "precision": 0.9413,
+          "recall": 0.8212
+        }
+      }
+    }
+  },
+  "coco_yolo11l_1280": {
+    "starting_point": "coco",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.0274,
+        "mAP50-95": 0.0146,
+        "precision": 0.6268,
+        "recall": 0.1346,
+        "ms_per_img": 58.65,
+        "fps": 17.0
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.1246,
+          "mAP50-95": 0.0632,
+          "precision": 0.1339,
+          "recall": 0.6729
+        },
+        "oline": {
+          "mAP50": 0.0124,
+          "mAP50-95": 0.0099,
+          "precision": 1.0,
+          "recall": 0.0
+        },
+        "qb": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "ref": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 1.0,
+          "recall": 0.0
+        },
+        "skill": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 1.0,
+          "recall": 0.0
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9432,
+          "mAP50-95": 0.6433,
+          "precision": 0.8989,
+          "recall": 0.8924,
+          "ms_per_img": 181.24,
+          "fps": 5.5
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9592,
+            "mAP50-95": 0.6741,
+            "precision": 0.9008,
+            "recall": 0.9106
+          },
+          "oline": {
+            "mAP50": 0.9356,
+            "mAP50-95": 0.6354,
+            "precision": 0.8589,
+            "recall": 0.8788
+          },
+          "qb": {
+            "mAP50": 0.9108,
+            "mAP50-95": 0.5979,
+            "precision": 0.9033,
+            "recall": 0.8501
+          },
+          "ref": {
+            "mAP50": 0.9823,
+            "mAP50-95": 0.5989,
+            "precision": 0.9579,
+            "recall": 1.0
+          },
+          "skill": {
+            "mAP50": 0.9279,
+            "mAP50-95": 0.7101,
+            "precision": 0.8733,
+            "recall": 0.8225
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9613,
+          "mAP50-95": 0.6854,
+          "precision": 0.9006,
+          "recall": 0.9291,
+          "ms_per_img": 248.93,
+          "fps": 4.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9751,
+            "mAP50-95": 0.6908,
+            "precision": 0.9632,
+            "recall": 0.9056
+          },
+          "oline": {
+            "mAP50": 0.9737,
+            "mAP50-95": 0.6761,
+            "precision": 0.9594,
+            "recall": 0.9256
+          },
+          "qb": {
+            "mAP50": 0.9241,
+            "mAP50-95": 0.68,
+            "precision": 0.7277,
+            "recall": 0.9091
+          },
+          "ref": {
+            "mAP50": 0.9842,
+            "mAP50-95": 0.6562,
+            "precision": 0.9524,
+            "recall": 0.9915
+          },
+          "skill": {
+            "mAP50": 0.9494,
+            "mAP50-95": 0.7237,
+            "precision": 0.9005,
+            "recall": 0.9138
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9472,
+          "mAP50-95": 0.6768,
+          "precision": 0.8861,
+          "recall": 0.8958,
+          "ms_per_img": 257.41,
+          "fps": 3.9
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9758,
+            "mAP50-95": 0.6987,
+            "precision": 0.8797,
+            "recall": 0.9679
+          },
+          "oline": {
+            "mAP50": 0.9386,
+            "mAP50-95": 0.677,
+            "precision": 0.8714,
+            "recall": 0.866
+          },
+          "qb": {
+            "mAP50": 0.8964,
+            "mAP50-95": 0.6289,
+            "precision": 0.7835,
+            "recall": 0.8619
+          },
+          "ref": {
+            "mAP50": 0.9924,
+            "mAP50-95": 0.683,
+            "precision": 0.9784,
+            "recall": 0.9832
+          },
+          "skill": {
+            "mAP50": 0.9327,
+            "mAP50-95": 0.6966,
+            "precision": 0.9176,
+            "recall": 0.8
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.897,
+          "mAP50-95": 0.6185,
+          "precision": 0.8432,
+          "recall": 0.8349,
+          "ms_per_img": 358.93,
+          "fps": 2.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9443,
+            "mAP50-95": 0.6478,
+            "precision": 0.827,
+            "recall": 0.9193
+          },
+          "oline": {
+            "mAP50": 0.9382,
+            "mAP50-95": 0.6261,
+            "precision": 0.8713,
+            "recall": 0.8377
+          },
+          "qb": {
+            "mAP50": 0.7042,
+            "mAP50-95": 0.4888,
+            "precision": 0.7276,
+            "recall": 0.5714
+          },
+          "ref": {
+            "mAP50": 0.9803,
+            "mAP50-95": 0.6264,
+            "precision": 0.972,
+            "recall": 1.0
+          },
+          "skill": {
+            "mAP50": 0.9179,
+            "mAP50-95": 0.7036,
+            "precision": 0.8182,
+            "recall": 0.8462
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9305,
+          "mAP50-95": 0.6174,
+          "precision": 0.8634,
+          "recall": 0.8763,
+          "ms_per_img": 332.44,
+          "fps": 3.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9536,
+            "mAP50-95": 0.6143,
+            "precision": 0.8777,
+            "recall": 0.9078
+          },
+          "oline": {
+            "mAP50": 0.9622,
+            "mAP50-95": 0.6585,
+            "precision": 0.93,
+            "recall": 0.9295
+          },
+          "qb": {
+            "mAP50": 0.8183,
+            "mAP50-95": 0.5229,
+            "precision": 0.7146,
+            "recall": 0.7155
+          },
+          "ref": {
+            "mAP50": 0.992,
+            "mAP50-95": 0.5951,
+            "precision": 0.9679,
+            "recall": 0.9811
+          },
+          "skill": {
+            "mAP50": 0.9265,
+            "mAP50-95": 0.6962,
+            "precision": 0.8266,
+            "recall": 0.8476
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9358,
+        "mAP50-95": 0.6483,
+        "precision": 0.8784,
+        "recall": 0.8857,
+        "ms_per_img": 275.79,
+        "fps": 3.84
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9616,
+          "mAP50-95": 0.6651,
+          "precision": 0.8897,
+          "recall": 0.9222
+        },
+        "oline": {
+          "mAP50": 0.9497,
+          "mAP50-95": 0.6546,
+          "precision": 0.8982,
+          "recall": 0.8875
+        },
+        "qb": {
+          "mAP50": 0.8508,
+          "mAP50-95": 0.5837,
+          "precision": 0.7713,
+          "recall": 0.7816
+        },
+        "ref": {
+          "mAP50": 0.9862,
+          "mAP50-95": 0.6319,
+          "precision": 0.9657,
+          "recall": 0.9912
+        },
+        "skill": {
+          "mAP50": 0.9309,
+          "mAP50-95": 0.706,
+          "precision": 0.8672,
+          "recall": 0.846
+        }
+      }
+    }
+  },
+  "coco_yolo11x_640": {
+    "starting_point": "coco",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.0414,
+        "mAP50-95": 0.0189,
+        "precision": 0.0502,
+        "recall": 0.1893,
+        "ms_per_img": 67.53,
+        "fps": 14.8
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.117,
+          "mAP50-95": 0.0564,
+          "precision": 0.077,
+          "recall": 0.9049
+        },
+        "oline": {
+          "mAP50": 0.07,
+          "mAP50-95": 0.0283,
+          "precision": 0.1349,
+          "recall": 0.0345
+        },
+        "qb": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "ref": {
+          "mAP50": 0.0198,
+          "mAP50-95": 0.0099,
+          "precision": 0.0392,
+          "recall": 0.0069
+        },
+        "skill": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9029,
+          "mAP50-95": 0.5827,
+          "precision": 0.907,
+          "recall": 0.7875,
+          "ms_per_img": 305.76,
+          "fps": 3.3
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9007,
+            "mAP50-95": 0.5875,
+            "precision": 0.8663,
+            "recall": 0.855
+          },
+          "oline": {
+            "mAP50": 0.8759,
+            "mAP50-95": 0.5264,
+            "precision": 0.8087,
+            "recall": 0.8041
+          },
+          "qb": {
+            "mAP50": 0.8485,
+            "mAP50-95": 0.5676,
+            "precision": 1.0,
+            "recall": 0.5601
+          },
+          "ref": {
+            "mAP50": 0.986,
+            "mAP50-95": 0.5753,
+            "precision": 0.9686,
+            "recall": 0.9672
+          },
+          "skill": {
+            "mAP50": 0.9037,
+            "mAP50-95": 0.6569,
+            "precision": 0.8912,
+            "recall": 0.7511
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9399,
+          "mAP50-95": 0.6354,
+          "precision": 0.9228,
+          "recall": 0.8876,
+          "ms_per_img": 146.36,
+          "fps": 6.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9381,
+            "mAP50-95": 0.6151,
+            "precision": 0.9269,
+            "recall": 0.8442
+          },
+          "oline": {
+            "mAP50": 0.9384,
+            "mAP50-95": 0.6104,
+            "precision": 0.9434,
+            "recall": 0.8529
+          },
+          "qb": {
+            "mAP50": 0.9155,
+            "mAP50-95": 0.67,
+            "precision": 0.894,
+            "recall": 0.8636
+          },
+          "ref": {
+            "mAP50": 0.9842,
+            "mAP50-95": 0.6097,
+            "precision": 0.9578,
+            "recall": 0.9702
+          },
+          "skill": {
+            "mAP50": 0.9235,
+            "mAP50-95": 0.6719,
+            "precision": 0.8918,
+            "recall": 0.907
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9223,
+          "mAP50-95": 0.5837,
+          "precision": 0.8898,
+          "recall": 0.8546,
+          "ms_per_img": 146.08,
+          "fps": 6.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9498,
+            "mAP50-95": 0.606,
+            "precision": 0.8548,
+            "recall": 0.9361
+          },
+          "oline": {
+            "mAP50": 0.8893,
+            "mAP50-95": 0.5307,
+            "precision": 0.7995,
+            "recall": 0.8351
+          },
+          "qb": {
+            "mAP50": 0.8958,
+            "mAP50-95": 0.5462,
+            "precision": 1.0,
+            "recall": 0.8024
+          },
+          "ref": {
+            "mAP50": 0.9796,
+            "mAP50-95": 0.613,
+            "precision": 0.947,
+            "recall": 0.9664
+          },
+          "skill": {
+            "mAP50": 0.897,
+            "mAP50-95": 0.6225,
+            "precision": 0.8476,
+            "recall": 0.7333
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9224,
+          "mAP50-95": 0.6135,
+          "precision": 0.9392,
+          "recall": 0.8247,
+          "ms_per_img": 139.73,
+          "fps": 7.2
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9328,
+            "mAP50-95": 0.6148,
+            "precision": 0.9024,
+            "recall": 0.8295
+          },
+          "oline": {
+            "mAP50": 0.8616,
+            "mAP50-95": 0.5081,
+            "precision": 0.9121,
+            "recall": 0.7491
+          },
+          "qb": {
+            "mAP50": 0.878,
+            "mAP50-95": 0.6393,
+            "precision": 0.9434,
+            "recall": 0.7619
+          },
+          "ref": {
+            "mAP50": 0.983,
+            "mAP50-95": 0.6067,
+            "precision": 0.9815,
+            "recall": 0.9383
+          },
+          "skill": {
+            "mAP50": 0.9567,
+            "mAP50-95": 0.6985,
+            "precision": 0.9565,
+            "recall": 0.8448
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.912,
+          "mAP50-95": 0.5752,
+          "precision": 0.9195,
+          "recall": 0.829,
+          "ms_per_img": 135.19,
+          "fps": 7.4
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9077,
+            "mAP50-95": 0.551,
+            "precision": 0.8704,
+            "recall": 0.8353
+          },
+          "oline": {
+            "mAP50": 0.9198,
+            "mAP50-95": 0.5886,
+            "precision": 0.9289,
+            "recall": 0.86
+          },
+          "qb": {
+            "mAP50": 0.8501,
+            "mAP50-95": 0.5089,
+            "precision": 0.9372,
+            "recall": 0.7113
+          },
+          "ref": {
+            "mAP50": 0.977,
+            "mAP50-95": 0.5815,
+            "precision": 0.99,
+            "recall": 0.9383
+          },
+          "skill": {
+            "mAP50": 0.9051,
+            "mAP50-95": 0.6461,
+            "precision": 0.8711,
+            "recall": 0.8
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9199,
+        "mAP50-95": 0.5981,
+        "precision": 0.9157,
+        "recall": 0.8367,
+        "ms_per_img": 174.624,
+        "fps": 6.3
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9258,
+          "mAP50-95": 0.5949,
+          "precision": 0.8842,
+          "recall": 0.86
+        },
+        "oline": {
+          "mAP50": 0.897,
+          "mAP50-95": 0.5528,
+          "precision": 0.8785,
+          "recall": 0.8202
+        },
+        "qb": {
+          "mAP50": 0.8776,
+          "mAP50-95": 0.5864,
+          "precision": 0.9549,
+          "recall": 0.7399
+        },
+        "ref": {
+          "mAP50": 0.982,
+          "mAP50-95": 0.5972,
+          "precision": 0.969,
+          "recall": 0.9561
+        },
+        "skill": {
+          "mAP50": 0.9172,
+          "mAP50-95": 0.6592,
+          "precision": 0.8916,
+          "recall": 0.8072
+        }
+      }
+    }
+  },
+  "coco_yolo11x_1280": {
+    "starting_point": "coco",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.027,
+        "mAP50-95": 0.0139,
+        "precision": 0.6278,
+        "recall": 0.1397,
+        "ms_per_img": 83.17,
+        "fps": 12.0
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.1349,
+          "mAP50-95": 0.0695,
+          "precision": 0.1392,
+          "recall": 0.6987
+        },
+        "oline": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 1.0,
+          "recall": 0.0
+        },
+        "qb": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "ref": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 1.0,
+          "recall": 0.0
+        },
+        "skill": {
+          "mAP50": 0.0,
+          "mAP50-95": 0.0,
+          "precision": 1.0,
+          "recall": 0.0
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9126,
+          "mAP50-95": 0.6181,
+          "precision": 0.891,
+          "recall": 0.8473,
+          "ms_per_img": 136.24,
+          "fps": 7.3
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9434,
+            "mAP50-95": 0.647,
+            "precision": 0.9261,
+            "recall": 0.8531
+          },
+          "oline": {
+            "mAP50": 0.905,
+            "mAP50-95": 0.5824,
+            "precision": 0.8649,
+            "recall": 0.8144
+          },
+          "qb": {
+            "mAP50": 0.8489,
+            "mAP50-95": 0.6038,
+            "precision": 0.8151,
+            "recall": 0.8182
+          },
+          "ref": {
+            "mAP50": 0.9655,
+            "mAP50-95": 0.5822,
+            "precision": 0.9518,
+            "recall": 0.9711
+          },
+          "skill": {
+            "mAP50": 0.9002,
+            "mAP50-95": 0.6749,
+            "precision": 0.8971,
+            "recall": 0.7798
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9328,
+          "mAP50-95": 0.659,
+          "precision": 0.8905,
+          "recall": 0.8733,
+          "ms_per_img": 138.34,
+          "fps": 7.2
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.95,
+            "mAP50-95": 0.6796,
+            "precision": 0.854,
+            "recall": 0.8918
+          },
+          "oline": {
+            "mAP50": 0.9674,
+            "mAP50-95": 0.6589,
+            "precision": 0.9513,
+            "recall": 0.9118
+          },
+          "qb": {
+            "mAP50": 0.8434,
+            "mAP50-95": 0.6116,
+            "precision": 0.8154,
+            "recall": 0.7273
+          },
+          "ref": {
+            "mAP50": 0.9918,
+            "mAP50-95": 0.6599,
+            "precision": 0.9532,
+            "recall": 0.9915
+          },
+          "skill": {
+            "mAP50": 0.9116,
+            "mAP50-95": 0.6851,
+            "precision": 0.8788,
+            "recall": 0.844
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9446,
+          "mAP50-95": 0.6545,
+          "precision": 0.9044,
+          "recall": 0.874,
+          "ms_per_img": 142.59,
+          "fps": 7.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9643,
+            "mAP50-95": 0.6712,
+            "precision": 0.8707,
+            "recall": 0.9406
+          },
+          "oline": {
+            "mAP50": 0.9496,
+            "mAP50-95": 0.6391,
+            "precision": 0.8525,
+            "recall": 0.8941
+          },
+          "qb": {
+            "mAP50": 0.8974,
+            "mAP50-95": 0.63,
+            "precision": 0.9411,
+            "recall": 0.7615
+          },
+          "ref": {
+            "mAP50": 0.9907,
+            "mAP50-95": 0.6555,
+            "precision": 0.9552,
+            "recall": 0.9832
+          },
+          "skill": {
+            "mAP50": 0.9208,
+            "mAP50-95": 0.6765,
+            "precision": 0.9024,
+            "recall": 0.7905
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.8949,
+          "mAP50-95": 0.6248,
+          "precision": 0.8298,
+          "recall": 0.8679,
+          "ms_per_img": 174.48,
+          "fps": 5.7
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9502,
+            "mAP50-95": 0.6577,
+            "precision": 0.8153,
+            "recall": 0.9302
+          },
+          "oline": {
+            "mAP50": 0.9422,
+            "mAP50-95": 0.6236,
+            "precision": 0.8822,
+            "recall": 0.8763
+          },
+          "qb": {
+            "mAP50": 0.6704,
+            "mAP50-95": 0.4909,
+            "precision": 0.6919,
+            "recall": 0.6667
+          },
+          "ref": {
+            "mAP50": 0.9892,
+            "mAP50-95": 0.6283,
+            "precision": 0.9514,
+            "recall": 0.9912
+          },
+          "skill": {
+            "mAP50": 0.9225,
+            "mAP50-95": 0.7236,
+            "precision": 0.8081,
+            "recall": 0.875
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9279,
+          "mAP50-95": 0.6193,
+          "precision": 0.9063,
+          "recall": 0.8493,
+          "ms_per_img": 145.64,
+          "fps": 6.9
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9379,
+            "mAP50-95": 0.6013,
+            "precision": 0.9069,
+            "recall": 0.8529
+          },
+          "oline": {
+            "mAP50": 0.9644,
+            "mAP50-95": 0.6771,
+            "precision": 0.9777,
+            "recall": 0.8786
+          },
+          "qb": {
+            "mAP50": 0.844,
+            "mAP50-95": 0.5578,
+            "precision": 0.7376,
+            "recall": 0.8095
+          },
+          "ref": {
+            "mAP50": 0.983,
+            "mAP50-95": 0.5795,
+            "precision": 0.9808,
+            "recall": 0.9664
+          },
+          "skill": {
+            "mAP50": 0.9104,
+            "mAP50-95": 0.681,
+            "precision": 0.9282,
+            "recall": 0.7393
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9226,
+        "mAP50-95": 0.6351,
+        "precision": 0.8844,
+        "recall": 0.8624,
+        "ms_per_img": 147.458,
+        "fps": 6.82
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9492,
+          "mAP50-95": 0.6514,
+          "precision": 0.8746,
+          "recall": 0.8937
+        },
+        "oline": {
+          "mAP50": 0.9457,
+          "mAP50-95": 0.6362,
+          "precision": 0.9057,
+          "recall": 0.875
+        },
+        "qb": {
+          "mAP50": 0.8208,
+          "mAP50-95": 0.5788,
+          "precision": 0.8002,
+          "recall": 0.7566
+        },
+        "ref": {
+          "mAP50": 0.984,
+          "mAP50-95": 0.6211,
+          "precision": 0.9585,
+          "recall": 0.9807
+        },
+        "skill": {
+          "mAP50": 0.9131,
+          "mAP50-95": 0.6882,
+          "precision": 0.8829,
+          "recall": 0.8057
+        }
+      }
+    }
+  },
+  "roboflow_yolo11n_640": {
+    "starting_point": "roboflow",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.5444,
+        "mAP50-95": 0.2855,
+        "precision": 0.5618,
+        "recall": 0.5228,
+        "ms_per_img": 57.17,
+        "fps": 17.5
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.6418,
+          "mAP50-95": 0.3557,
+          "precision": 0.5267,
+          "recall": 0.7222
+        },
+        "oline": {
+          "mAP50": 0.4255,
+          "mAP50-95": 0.1724,
+          "precision": 0.3889,
+          "recall": 0.4828
+        },
+        "qb": {
+          "mAP50": 0.4338,
+          "mAP50-95": 0.2224,
+          "precision": 0.6957,
+          "recall": 0.3364
+        },
+        "ref": {
+          "mAP50": 0.5972,
+          "mAP50-95": 0.3056,
+          "precision": 0.6126,
+          "recall": 0.5426
+        },
+        "skill": {
+          "mAP50": 0.6239,
+          "mAP50-95": 0.3713,
+          "precision": 0.585,
+          "recall": 0.5301
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9276,
+          "mAP50-95": 0.5863,
+          "precision": 0.8632,
+          "recall": 0.8649,
+          "ms_per_img": 123.71,
+          "fps": 8.1
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.934,
+            "mAP50-95": 0.5709,
+            "precision": 0.8501,
+            "recall": 0.8979
+          },
+          "oline": {
+            "mAP50": 0.854,
+            "mAP50-95": 0.4754,
+            "precision": 0.8102,
+            "recall": 0.7043
+          },
+          "qb": {
+            "mAP50": 0.9498,
+            "mAP50-95": 0.642,
+            "precision": 0.8395,
+            "recall": 0.9514
+          },
+          "ref": {
+            "mAP50": 0.9399,
+            "mAP50-95": 0.5536,
+            "precision": 0.8716,
+            "recall": 0.8899
+          },
+          "skill": {
+            "mAP50": 0.9604,
+            "mAP50-95": 0.6897,
+            "precision": 0.9445,
+            "recall": 0.8807
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9351,
+          "mAP50-95": 0.5864,
+          "precision": 0.8548,
+          "recall": 0.8747,
+          "ms_per_img": 110.52,
+          "fps": 9.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9345,
+            "mAP50-95": 0.5749,
+            "precision": 0.9206,
+            "recall": 0.8442
+          },
+          "oline": {
+            "mAP50": 0.8856,
+            "mAP50-95": 0.5195,
+            "precision": 0.8406,
+            "recall": 0.7756
+          },
+          "qb": {
+            "mAP50": 0.9393,
+            "mAP50-95": 0.6045,
+            "precision": 0.7244,
+            "recall": 0.9558
+          },
+          "ref": {
+            "mAP50": 0.9688,
+            "mAP50-95": 0.5564,
+            "precision": 0.9001,
+            "recall": 0.9241
+          },
+          "skill": {
+            "mAP50": 0.9472,
+            "mAP50-95": 0.6765,
+            "precision": 0.8881,
+            "recall": 0.8739
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.8938,
+          "mAP50-95": 0.5665,
+          "precision": 0.8787,
+          "recall": 0.7956,
+          "ms_per_img": 116.75,
+          "fps": 8.6
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9202,
+            "mAP50-95": 0.5726,
+            "precision": 0.9049,
+            "recall": 0.8447
+          },
+          "oline": {
+            "mAP50": 0.8043,
+            "mAP50-95": 0.4362,
+            "precision": 0.8684,
+            "recall": 0.6392
+          },
+          "qb": {
+            "mAP50": 0.9028,
+            "mAP50-95": 0.623,
+            "precision": 0.8359,
+            "recall": 0.8571
+          },
+          "ref": {
+            "mAP50": 0.9432,
+            "mAP50-95": 0.5749,
+            "precision": 0.9138,
+            "recall": 0.8655
+          },
+          "skill": {
+            "mAP50": 0.8987,
+            "mAP50-95": 0.6257,
+            "precision": 0.8702,
+            "recall": 0.7714
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9149,
+          "mAP50-95": 0.5682,
+          "precision": 0.8789,
+          "recall": 0.8073,
+          "ms_per_img": 123.44,
+          "fps": 8.1
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9252,
+            "mAP50-95": 0.572,
+            "precision": 0.8374,
+            "recall": 0.8744
+          },
+          "oline": {
+            "mAP50": 0.8414,
+            "mAP50-95": 0.4829,
+            "precision": 0.7619,
+            "recall": 0.7589
+          },
+          "qb": {
+            "mAP50": 0.9238,
+            "mAP50-95": 0.553,
+            "precision": 0.9794,
+            "recall": 0.6667
+          },
+          "ref": {
+            "mAP50": 0.9492,
+            "mAP50-95": 0.5704,
+            "precision": 0.943,
+            "recall": 0.8777
+          },
+          "skill": {
+            "mAP50": 0.9347,
+            "mAP50-95": 0.6626,
+            "precision": 0.8729,
+            "recall": 0.8587
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9144,
+          "mAP50-95": 0.5551,
+          "precision": 0.8434,
+          "recall": 0.8422,
+          "ms_per_img": 115.66,
+          "fps": 8.6
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9049,
+            "mAP50-95": 0.5388,
+            "precision": 0.8656,
+            "recall": 0.8295
+          },
+          "oline": {
+            "mAP50": 0.8627,
+            "mAP50-95": 0.5145,
+            "precision": 0.7316,
+            "recall": 0.81
+          },
+          "qb": {
+            "mAP50": 0.9274,
+            "mAP50-95": 0.5534,
+            "precision": 0.7461,
+            "recall": 0.9048
+          },
+          "ref": {
+            "mAP50": 0.9427,
+            "mAP50-95": 0.5238,
+            "precision": 0.9197,
+            "recall": 0.8774
+          },
+          "skill": {
+            "mAP50": 0.9342,
+            "mAP50-95": 0.645,
+            "precision": 0.954,
+            "recall": 0.7895
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9172,
+        "mAP50-95": 0.5725,
+        "precision": 0.8638,
+        "recall": 0.8369,
+        "ms_per_img": 118.016,
+        "fps": 8.48
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9238,
+          "mAP50-95": 0.5658,
+          "precision": 0.8757,
+          "recall": 0.8581
+        },
+        "oline": {
+          "mAP50": 0.8496,
+          "mAP50-95": 0.4857,
+          "precision": 0.8025,
+          "recall": 0.7376
+        },
+        "qb": {
+          "mAP50": 0.9286,
+          "mAP50-95": 0.5952,
+          "precision": 0.8251,
+          "recall": 0.8672
+        },
+        "ref": {
+          "mAP50": 0.9488,
+          "mAP50-95": 0.5558,
+          "precision": 0.9096,
+          "recall": 0.8869
+        },
+        "skill": {
+          "mAP50": 0.935,
+          "mAP50-95": 0.6599,
+          "precision": 0.9059,
+          "recall": 0.8348
+        }
+      }
+    }
+  },
+  "roboflow_yolo11n_1280": {
+    "starting_point": "roboflow",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.6965,
+        "mAP50-95": 0.4047,
+        "precision": 0.7396,
+        "recall": 0.6275,
+        "ms_per_img": 28.98,
+        "fps": 34.5
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.7494,
+          "mAP50-95": 0.4535,
+          "precision": 0.6539,
+          "recall": 0.7698
+        },
+        "oline": {
+          "mAP50": 0.7175,
+          "mAP50-95": 0.3561,
+          "precision": 0.6918,
+          "recall": 0.7329
+        },
+        "qb": {
+          "mAP50": 0.6004,
+          "mAP50-95": 0.3555,
+          "precision": 0.868,
+          "recall": 0.4301
+        },
+        "ref": {
+          "mAP50": 0.7562,
+          "mAP50-95": 0.4266,
+          "precision": 0.8121,
+          "recall": 0.6443
+        },
+        "skill": {
+          "mAP50": 0.6591,
+          "mAP50-95": 0.4318,
+          "precision": 0.6724,
+          "recall": 0.5602
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9752,
+          "mAP50-95": 0.6785,
+          "precision": 0.9272,
+          "recall": 0.942,
+          "ms_per_img": 159.05,
+          "fps": 6.3
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9843,
+            "mAP50-95": 0.6897,
+            "precision": 0.9565,
+            "recall": 0.9574
+          },
+          "oline": {
+            "mAP50": 0.9373,
+            "mAP50-95": 0.6394,
+            "precision": 0.8561,
+            "recall": 0.859
+          },
+          "qb": {
+            "mAP50": 0.9797,
+            "mAP50-95": 0.6982,
+            "precision": 0.9541,
+            "recall": 0.9462
+          },
+          "ref": {
+            "mAP50": 0.9857,
+            "mAP50-95": 0.6001,
+            "precision": 0.932,
+            "recall": 0.9918
+          },
+          "skill": {
+            "mAP50": 0.9889,
+            "mAP50-95": 0.7652,
+            "precision": 0.937,
+            "recall": 0.9558
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9872,
+          "mAP50-95": 0.7007,
+          "precision": 0.9522,
+          "recall": 0.9608,
+          "ms_per_img": 250.1,
+          "fps": 4.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9872,
+            "mAP50-95": 0.7011,
+            "precision": 0.964,
+            "recall": 0.9261
+          },
+          "oline": {
+            "mAP50": 0.987,
+            "mAP50-95": 0.6697,
+            "precision": 0.9797,
+            "recall": 0.9444
+          },
+          "qb": {
+            "mAP50": 0.9917,
+            "mAP50-95": 0.7553,
+            "precision": 0.9074,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9809,
+            "mAP50-95": 0.6125,
+            "precision": 0.9557,
+            "recall": 0.9744
+          },
+          "skill": {
+            "mAP50": 0.989,
+            "mAP50-95": 0.7651,
+            "precision": 0.9544,
+            "recall": 0.9593
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9545,
+          "mAP50-95": 0.6729,
+          "precision": 0.9071,
+          "recall": 0.9003,
+          "ms_per_img": 155.25,
+          "fps": 6.4
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9587,
+            "mAP50-95": 0.6787,
+            "precision": 0.9177,
+            "recall": 0.9589
+          },
+          "oline": {
+            "mAP50": 0.9331,
+            "mAP50-95": 0.622,
+            "precision": 0.8906,
+            "recall": 0.8557
+          },
+          "qb": {
+            "mAP50": 0.9429,
+            "mAP50-95": 0.6805,
+            "precision": 0.8508,
+            "recall": 0.8571
+          },
+          "ref": {
+            "mAP50": 0.9861,
+            "mAP50-95": 0.6732,
+            "precision": 0.9578,
+            "recall": 0.9538
+          },
+          "skill": {
+            "mAP50": 0.9517,
+            "mAP50-95": 0.7102,
+            "precision": 0.9186,
+            "recall": 0.8762
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9774,
+          "mAP50-95": 0.6954,
+          "precision": 0.9424,
+          "recall": 0.9417,
+          "ms_per_img": 173.52,
+          "fps": 5.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9814,
+            "mAP50-95": 0.6865,
+            "precision": 0.943,
+            "recall": 0.9596
+          },
+          "oline": {
+            "mAP50": 0.955,
+            "mAP50-95": 0.6396,
+            "precision": 0.9612,
+            "recall": 0.866
+          },
+          "qb": {
+            "mAP50": 0.9849,
+            "mAP50-95": 0.7244,
+            "precision": 0.9422,
+            "recall": 0.9524
+          },
+          "ref": {
+            "mAP50": 0.9907,
+            "mAP50-95": 0.6676,
+            "precision": 0.9328,
+            "recall": 1.0
+          },
+          "skill": {
+            "mAP50": 0.9749,
+            "mAP50-95": 0.759,
+            "precision": 0.9325,
+            "recall": 0.9306
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9693,
+          "mAP50-95": 0.6628,
+          "precision": 0.9246,
+          "recall": 0.9353,
+          "ms_per_img": 147.37,
+          "fps": 6.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9658,
+            "mAP50-95": 0.6503,
+            "precision": 0.9083,
+            "recall": 0.9355
+          },
+          "oline": {
+            "mAP50": 0.9465,
+            "mAP50-95": 0.6539,
+            "precision": 0.8774,
+            "recall": 0.9307
+          },
+          "qb": {
+            "mAP50": 0.9844,
+            "mAP50-95": 0.6765,
+            "precision": 0.951,
+            "recall": 0.9238
+          },
+          "ref": {
+            "mAP50": 0.9765,
+            "mAP50-95": 0.6031,
+            "precision": 0.9442,
+            "recall": 0.9577
+          },
+          "skill": {
+            "mAP50": 0.9731,
+            "mAP50-95": 0.7302,
+            "precision": 0.9421,
+            "recall": 0.929
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9727,
+        "mAP50-95": 0.6821,
+        "precision": 0.9307,
+        "recall": 0.936,
+        "ms_per_img": 177.058,
+        "fps": 5.86
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9755,
+          "mAP50-95": 0.6813,
+          "precision": 0.9379,
+          "recall": 0.9475
+        },
+        "oline": {
+          "mAP50": 0.9518,
+          "mAP50-95": 0.6449,
+          "precision": 0.913,
+          "recall": 0.8912
+        },
+        "qb": {
+          "mAP50": 0.9767,
+          "mAP50-95": 0.707,
+          "precision": 0.9211,
+          "recall": 0.9359
+        },
+        "ref": {
+          "mAP50": 0.984,
+          "mAP50-95": 0.6313,
+          "precision": 0.9445,
+          "recall": 0.9755
+        },
+        "skill": {
+          "mAP50": 0.9755,
+          "mAP50-95": 0.7459,
+          "precision": 0.9369,
+          "recall": 0.9302
+        }
+      }
+    }
+  },
+  "roboflow_yolo11s_640": {
+    "starting_point": "roboflow",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.5557,
+        "mAP50-95": 0.3068,
+        "precision": 0.6101,
+        "recall": 0.5262,
+        "ms_per_img": 40.03,
+        "fps": 25.0
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.6175,
+          "mAP50-95": 0.3619,
+          "precision": 0.5788,
+          "recall": 0.712
+        },
+        "oline": {
+          "mAP50": 0.4805,
+          "mAP50-95": 0.2025,
+          "precision": 0.4959,
+          "recall": 0.5254
+        },
+        "qb": {
+          "mAP50": 0.4341,
+          "mAP50-95": 0.2491,
+          "precision": 0.5927,
+          "recall": 0.3645
+        },
+        "ref": {
+          "mAP50": 0.5885,
+          "mAP50-95": 0.3029,
+          "precision": 0.6959,
+          "recall": 0.5026
+        },
+        "skill": {
+          "mAP50": 0.6579,
+          "mAP50-95": 0.4176,
+          "precision": 0.6873,
+          "recall": 0.5263
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9533,
+          "mAP50-95": 0.6268,
+          "precision": 0.8963,
+          "recall": 0.911,
+          "ms_per_img": 141.95,
+          "fps": 7.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9768,
+            "mAP50-95": 0.6393,
+            "precision": 0.9398,
+            "recall": 0.9234
+          },
+          "oline": {
+            "mAP50": 0.8813,
+            "mAP50-95": 0.5343,
+            "precision": 0.8258,
+            "recall": 0.8247
+          },
+          "qb": {
+            "mAP50": 0.9551,
+            "mAP50-95": 0.6621,
+            "precision": 0.9119,
+            "recall": 0.9417
+          },
+          "ref": {
+            "mAP50": 0.9689,
+            "mAP50-95": 0.5798,
+            "precision": 0.8842,
+            "recall": 0.9384
+          },
+          "skill": {
+            "mAP50": 0.9844,
+            "mAP50-95": 0.7185,
+            "precision": 0.92,
+            "recall": 0.9266
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9633,
+          "mAP50-95": 0.6468,
+          "precision": 0.9071,
+          "recall": 0.9234,
+          "ms_per_img": 143.2,
+          "fps": 7.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9602,
+            "mAP50-95": 0.6293,
+            "precision": 0.9463,
+            "recall": 0.8918
+          },
+          "oline": {
+            "mAP50": 0.9411,
+            "mAP50-95": 0.5919,
+            "precision": 0.9226,
+            "recall": 0.8725
+          },
+          "qb": {
+            "mAP50": 0.9514,
+            "mAP50-95": 0.6914,
+            "precision": 0.8396,
+            "recall": 0.9521
+          },
+          "ref": {
+            "mAP50": 0.9903,
+            "mAP50-95": 0.5996,
+            "precision": 0.9265,
+            "recall": 0.9829
+          },
+          "skill": {
+            "mAP50": 0.9732,
+            "mAP50-95": 0.7218,
+            "precision": 0.9004,
+            "recall": 0.9174
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9311,
+          "mAP50-95": 0.6186,
+          "precision": 0.888,
+          "recall": 0.8464,
+          "ms_per_img": 145.56,
+          "fps": 6.9
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9438,
+            "mAP50-95": 0.6111,
+            "precision": 0.8997,
+            "recall": 0.9008
+          },
+          "oline": {
+            "mAP50": 0.8691,
+            "mAP50-95": 0.53,
+            "precision": 0.8392,
+            "recall": 0.7423
+          },
+          "qb": {
+            "mAP50": 0.9593,
+            "mAP50-95": 0.6875,
+            "precision": 0.8902,
+            "recall": 0.8571
+          },
+          "ref": {
+            "mAP50": 0.9576,
+            "mAP50-95": 0.6034,
+            "precision": 0.8983,
+            "recall": 0.9328
+          },
+          "skill": {
+            "mAP50": 0.9257,
+            "mAP50-95": 0.6608,
+            "precision": 0.9129,
+            "recall": 0.7988
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9549,
+          "mAP50-95": 0.64,
+          "precision": 0.9159,
+          "recall": 0.9117,
+          "ms_per_img": 144.68,
+          "fps": 6.9
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9502,
+            "mAP50-95": 0.6284,
+            "precision": 0.9055,
+            "recall": 0.9028
+          },
+          "oline": {
+            "mAP50": 0.9354,
+            "mAP50-95": 0.5611,
+            "precision": 0.9235,
+            "recall": 0.8715
+          },
+          "qb": {
+            "mAP50": 0.9536,
+            "mAP50-95": 0.66,
+            "precision": 0.8903,
+            "recall": 0.9048
+          },
+          "ref": {
+            "mAP50": 0.9694,
+            "mAP50-95": 0.6331,
+            "precision": 0.9511,
+            "recall": 0.9469
+          },
+          "skill": {
+            "mAP50": 0.9659,
+            "mAP50-95": 0.7173,
+            "precision": 0.9092,
+            "recall": 0.9327
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9494,
+          "mAP50-95": 0.6123,
+          "precision": 0.8974,
+          "recall": 0.8995,
+          "ms_per_img": 146.48,
+          "fps": 6.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9501,
+            "mAP50-95": 0.6057,
+            "precision": 0.9003,
+            "recall": 0.894
+          },
+          "oline": {
+            "mAP50": 0.9211,
+            "mAP50-95": 0.5599,
+            "precision": 0.8639,
+            "recall": 0.8887
+          },
+          "qb": {
+            "mAP50": 0.9377,
+            "mAP50-95": 0.6231,
+            "precision": 0.898,
+            "recall": 0.8393
+          },
+          "ref": {
+            "mAP50": 0.9721,
+            "mAP50-95": 0.5859,
+            "precision": 0.8937,
+            "recall": 0.9517
+          },
+          "skill": {
+            "mAP50": 0.9657,
+            "mAP50-95": 0.687,
+            "precision": 0.931,
+            "recall": 0.9238
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9504,
+        "mAP50-95": 0.6289,
+        "precision": 0.9009,
+        "recall": 0.8984,
+        "ms_per_img": 144.374,
+        "fps": 6.92
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9562,
+          "mAP50-95": 0.6228,
+          "precision": 0.9183,
+          "recall": 0.9026
+        },
+        "oline": {
+          "mAP50": 0.9096,
+          "mAP50-95": 0.5554,
+          "precision": 0.875,
+          "recall": 0.8399
+        },
+        "qb": {
+          "mAP50": 0.9514,
+          "mAP50-95": 0.6648,
+          "precision": 0.886,
+          "recall": 0.899
+        },
+        "ref": {
+          "mAP50": 0.9717,
+          "mAP50-95": 0.6004,
+          "precision": 0.9108,
+          "recall": 0.9505
+        },
+        "skill": {
+          "mAP50": 0.963,
+          "mAP50-95": 0.7011,
+          "precision": 0.9147,
+          "recall": 0.8999
+        }
+      }
+    }
+  },
+  "roboflow_yolo11s_1280": {
+    "starting_point": "roboflow",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.6723,
+        "mAP50-95": 0.4089,
+        "precision": 0.6914,
+        "recall": 0.6258,
+        "ms_per_img": 36.8,
+        "fps": 27.2
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.7092,
+          "mAP50-95": 0.4529,
+          "precision": 0.638,
+          "recall": 0.8436
+        },
+        "oline": {
+          "mAP50": 0.7412,
+          "mAP50-95": 0.3888,
+          "precision": 0.6875,
+          "recall": 0.6694
+        },
+        "qb": {
+          "mAP50": 0.494,
+          "mAP50-95": 0.3213,
+          "precision": 0.6626,
+          "recall": 0.4019
+        },
+        "ref": {
+          "mAP50": 0.7274,
+          "mAP50-95": 0.4174,
+          "precision": 0.7355,
+          "recall": 0.6482
+        },
+        "skill": {
+          "mAP50": 0.6896,
+          "mAP50-95": 0.4643,
+          "precision": 0.7333,
+          "recall": 0.5658
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9873,
+          "mAP50-95": 0.7139,
+          "precision": 0.9735,
+          "recall": 0.9455,
+          "ms_per_img": 213.71,
+          "fps": 4.7
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9917,
+            "mAP50-95": 0.6907,
+            "precision": 0.9869,
+            "recall": 0.9634
+          },
+          "oline": {
+            "mAP50": 0.9743,
+            "mAP50-95": 0.6926,
+            "precision": 0.9677,
+            "recall": 0.927
+          },
+          "qb": {
+            "mAP50": 0.9893,
+            "mAP50-95": 0.7436,
+            "precision": 0.9754,
+            "recall": 0.8636
+          },
+          "ref": {
+            "mAP50": 0.9883,
+            "mAP50-95": 0.6454,
+            "precision": 0.9616,
+            "recall": 0.9918
+          },
+          "skill": {
+            "mAP50": 0.993,
+            "mAP50-95": 0.7972,
+            "precision": 0.9759,
+            "recall": 0.9817
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.987,
+          "mAP50-95": 0.7259,
+          "precision": 0.9572,
+          "recall": 0.9637,
+          "ms_per_img": 357.61,
+          "fps": 2.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9904,
+            "mAP50-95": 0.7157,
+            "precision": 0.9778,
+            "recall": 0.9545
+          },
+          "oline": {
+            "mAP50": 0.9752,
+            "mAP50-95": 0.7124,
+            "precision": 0.9785,
+            "recall": 0.8907
+          },
+          "qb": {
+            "mAP50": 0.9917,
+            "mAP50-95": 0.753,
+            "precision": 0.9124,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9944,
+            "mAP50-95": 0.6722,
+            "precision": 0.9546,
+            "recall": 0.9915
+          },
+          "skill": {
+            "mAP50": 0.9834,
+            "mAP50-95": 0.7763,
+            "precision": 0.9627,
+            "recall": 0.9817
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9791,
+          "mAP50-95": 0.7117,
+          "precision": 0.9427,
+          "recall": 0.961,
+          "ms_per_img": 197.17,
+          "fps": 5.1
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9882,
+            "mAP50-95": 0.7172,
+            "precision": 0.9591,
+            "recall": 0.9726
+          },
+          "oline": {
+            "mAP50": 0.9554,
+            "mAP50-95": 0.6761,
+            "precision": 0.8808,
+            "recall": 0.9138
+          },
+          "qb": {
+            "mAP50": 0.9845,
+            "mAP50-95": 0.7232,
+            "precision": 0.9455,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9857,
+            "mAP50-95": 0.6872,
+            "precision": 0.974,
+            "recall": 0.9664
+          },
+          "skill": {
+            "mAP50": 0.9818,
+            "mAP50-95": 0.7546,
+            "precision": 0.9539,
+            "recall": 0.9524
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9834,
+          "mAP50-95": 0.7304,
+          "precision": 0.9659,
+          "recall": 0.9401,
+          "ms_per_img": 263.5,
+          "fps": 3.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9878,
+            "mAP50-95": 0.7051,
+            "precision": 0.9646,
+            "recall": 0.9417
+          },
+          "oline": {
+            "mAP50": 0.9701,
+            "mAP50-95": 0.6658,
+            "precision": 0.9882,
+            "recall": 0.8634
+          },
+          "qb": {
+            "mAP50": 0.9915,
+            "mAP50-95": 0.794,
+            "precision": 0.9578,
+            "recall": 0.9524
+          },
+          "ref": {
+            "mAP50": 0.9906,
+            "mAP50-95": 0.6917,
+            "precision": 0.9852,
+            "recall": 0.9912
+          },
+          "skill": {
+            "mAP50": 0.9768,
+            "mAP50-95": 0.7953,
+            "precision": 0.9338,
+            "recall": 0.9519
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9819,
+          "mAP50-95": 0.6935,
+          "precision": 0.94,
+          "recall": 0.9662,
+          "ms_per_img": 230.54,
+          "fps": 4.3
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9797,
+            "mAP50-95": 0.6759,
+            "precision": 0.9379,
+            "recall": 0.9493
+          },
+          "oline": {
+            "mAP50": 0.9699,
+            "mAP50-95": 0.693,
+            "precision": 0.9318,
+            "recall": 0.9568
+          },
+          "qb": {
+            "mAP50": 0.9932,
+            "mAP50-95": 0.706,
+            "precision": 0.9542,
+            "recall": 0.9924
+          },
+          "ref": {
+            "mAP50": 0.9861,
+            "mAP50-95": 0.6437,
+            "precision": 0.9409,
+            "recall": 0.9717
+          },
+          "skill": {
+            "mAP50": 0.9805,
+            "mAP50-95": 0.7492,
+            "precision": 0.9351,
+            "recall": 0.9609
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9837,
+        "mAP50-95": 0.7151,
+        "precision": 0.9559,
+        "recall": 0.9553,
+        "ms_per_img": 252.506,
+        "fps": 4.14
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9876,
+          "mAP50-95": 0.7009,
+          "precision": 0.9653,
+          "recall": 0.9563
+        },
+        "oline": {
+          "mAP50": 0.969,
+          "mAP50-95": 0.688,
+          "precision": 0.9494,
+          "recall": 0.9103
+        },
+        "qb": {
+          "mAP50": 0.99,
+          "mAP50-95": 0.744,
+          "precision": 0.9491,
+          "recall": 0.9617
+        },
+        "ref": {
+          "mAP50": 0.989,
+          "mAP50-95": 0.668,
+          "precision": 0.9633,
+          "recall": 0.9825
+        },
+        "skill": {
+          "mAP50": 0.9831,
+          "mAP50-95": 0.7745,
+          "precision": 0.9523,
+          "recall": 0.9657
+        }
+      }
+    }
+  },
+  "roboflow_yolo11m_640": {
+    "starting_point": "roboflow",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.6128,
+        "mAP50-95": 0.3611,
+        "precision": 0.683,
+        "recall": 0.5316,
+        "ms_per_img": 44.99,
+        "fps": 22.2
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.6777,
+          "mAP50-95": 0.4247,
+          "precision": 0.6948,
+          "recall": 0.6027
+        },
+        "oline": {
+          "mAP50": 0.444,
+          "mAP50-95": 0.2031,
+          "precision": 0.521,
+          "recall": 0.4199
+        },
+        "qb": {
+          "mAP50": 0.5185,
+          "mAP50-95": 0.3015,
+          "precision": 0.7219,
+          "recall": 0.4206
+        },
+        "ref": {
+          "mAP50": 0.7123,
+          "mAP50-95": 0.3969,
+          "precision": 0.7714,
+          "recall": 0.6395
+        },
+        "skill": {
+          "mAP50": 0.7118,
+          "mAP50-95": 0.4793,
+          "precision": 0.706,
+          "recall": 0.5752
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9619,
+          "mAP50-95": 0.6571,
+          "precision": 0.9271,
+          "recall": 0.9255,
+          "ms_per_img": 163.06,
+          "fps": 6.1
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9763,
+            "mAP50-95": 0.6471,
+            "precision": 0.9391,
+            "recall": 0.9532
+          },
+          "oline": {
+            "mAP50": 0.883,
+            "mAP50-95": 0.5576,
+            "precision": 0.8262,
+            "recall": 0.8454
+          },
+          "qb": {
+            "mAP50": 0.9784,
+            "mAP50-95": 0.7108,
+            "precision": 0.9532,
+            "recall": 0.927
+          },
+          "ref": {
+            "mAP50": 0.9873,
+            "mAP50-95": 0.6274,
+            "precision": 0.9497,
+            "recall": 0.9754
+          },
+          "skill": {
+            "mAP50": 0.9846,
+            "mAP50-95": 0.7426,
+            "precision": 0.9672,
+            "recall": 0.9266
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9798,
+          "mAP50-95": 0.6809,
+          "precision": 0.949,
+          "recall": 0.9461,
+          "ms_per_img": 170.31,
+          "fps": 5.9
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9855,
+            "mAP50-95": 0.6566,
+            "precision": 0.96,
+            "recall": 0.935
+          },
+          "oline": {
+            "mAP50": 0.9492,
+            "mAP50-95": 0.6225,
+            "precision": 0.9777,
+            "recall": 0.859
+          },
+          "qb": {
+            "mAP50": 0.995,
+            "mAP50-95": 0.7486,
+            "precision": 0.9021,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9902,
+            "mAP50-95": 0.6389,
+            "precision": 0.9689,
+            "recall": 0.9915
+          },
+          "skill": {
+            "mAP50": 0.9793,
+            "mAP50-95": 0.7378,
+            "precision": 0.9365,
+            "recall": 0.945
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9643,
+          "mAP50-95": 0.6481,
+          "precision": 0.9249,
+          "recall": 0.8922,
+          "ms_per_img": 177.67,
+          "fps": 5.6
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9791,
+            "mAP50-95": 0.6655,
+            "precision": 0.9496,
+            "recall": 0.947
+          },
+          "oline": {
+            "mAP50": 0.9146,
+            "mAP50-95": 0.5777,
+            "precision": 0.9012,
+            "recall": 0.7523
+          },
+          "qb": {
+            "mAP50": 0.9743,
+            "mAP50-95": 0.6656,
+            "precision": 0.8273,
+            "recall": 0.9524
+          },
+          "ref": {
+            "mAP50": 0.9801,
+            "mAP50-95": 0.6225,
+            "precision": 0.9649,
+            "recall": 0.9236
+          },
+          "skill": {
+            "mAP50": 0.9733,
+            "mAP50-95": 0.7093,
+            "precision": 0.9815,
+            "recall": 0.8857
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9577,
+          "mAP50-95": 0.6609,
+          "precision": 0.9315,
+          "recall": 0.9023,
+          "ms_per_img": 181.52,
+          "fps": 5.5
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9664,
+            "mAP50-95": 0.6395,
+            "precision": 0.9234,
+            "recall": 0.9238
+          },
+          "oline": {
+            "mAP50": 0.9258,
+            "mAP50-95": 0.583,
+            "precision": 0.8917,
+            "recall": 0.849
+          },
+          "qb": {
+            "mAP50": 0.9317,
+            "mAP50-95": 0.6992,
+            "precision": 0.9448,
+            "recall": 0.8152
+          },
+          "ref": {
+            "mAP50": 0.9869,
+            "mAP50-95": 0.6316,
+            "precision": 0.9821,
+            "recall": 0.9718
+          },
+          "skill": {
+            "mAP50": 0.9778,
+            "mAP50-95": 0.751,
+            "precision": 0.9153,
+            "recall": 0.9519
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9676,
+          "mAP50-95": 0.6532,
+          "precision": 0.9424,
+          "recall": 0.9405,
+          "ms_per_img": 157.95,
+          "fps": 6.3
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9561,
+            "mAP50-95": 0.633,
+            "precision": 0.9512,
+            "recall": 0.8984
+          },
+          "oline": {
+            "mAP50": 0.9392,
+            "mAP50-95": 0.648,
+            "precision": 0.8913,
+            "recall": 0.93
+          },
+          "qb": {
+            "mAP50": 0.9932,
+            "mAP50-95": 0.6697,
+            "precision": 0.9538,
+            "recall": 0.9829
+          },
+          "ref": {
+            "mAP50": 0.9737,
+            "mAP50-95": 0.6026,
+            "precision": 0.936,
+            "recall": 0.9717
+          },
+          "skill": {
+            "mAP50": 0.9756,
+            "mAP50-95": 0.7124,
+            "precision": 0.9797,
+            "recall": 0.9195
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9663,
+        "mAP50-95": 0.66,
+        "precision": 0.935,
+        "recall": 0.9213,
+        "ms_per_img": 170.102,
+        "fps": 5.88
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9727,
+          "mAP50-95": 0.6483,
+          "precision": 0.9447,
+          "recall": 0.9315
+        },
+        "oline": {
+          "mAP50": 0.9224,
+          "mAP50-95": 0.5978,
+          "precision": 0.8976,
+          "recall": 0.8471
+        },
+        "qb": {
+          "mAP50": 0.9745,
+          "mAP50-95": 0.6988,
+          "precision": 0.9162,
+          "recall": 0.9355
+        },
+        "ref": {
+          "mAP50": 0.9836,
+          "mAP50-95": 0.6246,
+          "precision": 0.9603,
+          "recall": 0.9668
+        },
+        "skill": {
+          "mAP50": 0.9781,
+          "mAP50-95": 0.7306,
+          "precision": 0.956,
+          "recall": 0.9257
+        }
+      }
+    }
+  },
+  "roboflow_yolo11m_1280": {
+    "starting_point": "roboflow",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.7411,
+        "mAP50-95": 0.4561,
+        "precision": 0.7205,
+        "recall": 0.6479,
+        "ms_per_img": 42.11,
+        "fps": 23.7
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.8249,
+          "mAP50-95": 0.5392,
+          "precision": 0.7622,
+          "recall": 0.7849
+        },
+        "oline": {
+          "mAP50": 0.7383,
+          "mAP50-95": 0.3864,
+          "precision": 0.7353,
+          "recall": 0.6714
+        },
+        "qb": {
+          "mAP50": 0.5858,
+          "mAP50-95": 0.3786,
+          "precision": 0.6758,
+          "recall": 0.4206
+        },
+        "ref": {
+          "mAP50": 0.7875,
+          "mAP50-95": 0.4496,
+          "precision": 0.7466,
+          "recall": 0.7106
+        },
+        "skill": {
+          "mAP50": 0.7688,
+          "mAP50-95": 0.5269,
+          "precision": 0.6826,
+          "recall": 0.6523
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9841,
+          "mAP50-95": 0.707,
+          "precision": 0.9577,
+          "recall": 0.949,
+          "ms_per_img": 251.0,
+          "fps": 4.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9933,
+            "mAP50-95": 0.7063,
+            "precision": 0.9675,
+            "recall": 0.9787
+          },
+          "oline": {
+            "mAP50": 0.9682,
+            "mAP50-95": 0.6835,
+            "precision": 0.9102,
+            "recall": 0.9175
+          },
+          "qb": {
+            "mAP50": 0.9902,
+            "mAP50-95": 0.7164,
+            "precision": 1.0,
+            "recall": 0.8945
+          },
+          "ref": {
+            "mAP50": 0.9788,
+            "mAP50-95": 0.6539,
+            "precision": 0.9736,
+            "recall": 1.0
+          },
+          "skill": {
+            "mAP50": 0.9899,
+            "mAP50-95": 0.7747,
+            "precision": 0.9373,
+            "recall": 0.9541
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9888,
+          "mAP50-95": 0.7394,
+          "precision": 0.9648,
+          "recall": 0.9758,
+          "ms_per_img": 181.53,
+          "fps": 5.5
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9918,
+            "mAP50-95": 0.7259,
+            "precision": 0.9779,
+            "recall": 0.9573
+          },
+          "oline": {
+            "mAP50": 0.9829,
+            "mAP50-95": 0.716,
+            "precision": 0.9868,
+            "recall": 0.9412
+          },
+          "qb": {
+            "mAP50": 0.9933,
+            "mAP50-95": 0.7819,
+            "precision": 0.9422,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9876,
+            "mAP50-95": 0.6922,
+            "precision": 0.9354,
+            "recall": 1.0
+          },
+          "skill": {
+            "mAP50": 0.9885,
+            "mAP50-95": 0.7808,
+            "precision": 0.9816,
+            "recall": 0.9806
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9811,
+          "mAP50-95": 0.7237,
+          "precision": 0.9655,
+          "recall": 0.9594,
+          "ms_per_img": 122.6,
+          "fps": 8.2
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9806,
+            "mAP50-95": 0.7227,
+            "precision": 0.9564,
+            "recall": 0.9543
+          },
+          "oline": {
+            "mAP50": 0.9821,
+            "mAP50-95": 0.7109,
+            "precision": 0.9683,
+            "recall": 0.9448
+          },
+          "qb": {
+            "mAP50": 0.995,
+            "mAP50-95": 0.7477,
+            "precision": 0.9596,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9834,
+            "mAP50-95": 0.6925,
+            "precision": 0.9832,
+            "recall": 0.9811
+          },
+          "skill": {
+            "mAP50": 0.9646,
+            "mAP50-95": 0.7447,
+            "precision": 0.9601,
+            "recall": 0.9165
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.987,
+          "mAP50-95": 0.7375,
+          "precision": 0.9803,
+          "recall": 0.9797,
+          "ms_per_img": 139.67,
+          "fps": 7.2
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9867,
+            "mAP50-95": 0.704,
+            "precision": 0.965,
+            "recall": 0.989
+          },
+          "oline": {
+            "mAP50": 0.978,
+            "mAP50-95": 0.6884,
+            "precision": 0.9892,
+            "recall": 0.9481
+          },
+          "qb": {
+            "mAP50": 0.995,
+            "mAP50-95": 0.7918,
+            "precision": 0.9996,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9882,
+            "mAP50-95": 0.7028,
+            "precision": 0.9814,
+            "recall": 1.0
+          },
+          "skill": {
+            "mAP50": 0.9869,
+            "mAP50-95": 0.8004,
+            "precision": 0.9665,
+            "recall": 0.9615
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9832,
+          "mAP50-95": 0.709,
+          "precision": 0.9625,
+          "recall": 0.9582,
+          "ms_per_img": 124.95,
+          "fps": 8.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9843,
+            "mAP50-95": 0.6977,
+            "precision": 0.9704,
+            "recall": 0.9631
+          },
+          "oline": {
+            "mAP50": 0.9668,
+            "mAP50-95": 0.6942,
+            "precision": 0.9589,
+            "recall": 0.9321
+          },
+          "qb": {
+            "mAP50": 0.9932,
+            "mAP50-95": 0.731,
+            "precision": 0.9439,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9847,
+            "mAP50-95": 0.6541,
+            "precision": 0.9558,
+            "recall": 0.9528
+          },
+          "skill": {
+            "mAP50": 0.9868,
+            "mAP50-95": 0.768,
+            "precision": 0.9837,
+            "recall": 0.9429
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9848,
+        "mAP50-95": 0.7233,
+        "precision": 0.9662,
+        "recall": 0.9644,
+        "ms_per_img": 163.95,
+        "fps": 6.58
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9873,
+          "mAP50-95": 0.7113,
+          "precision": 0.9674,
+          "recall": 0.9685
+        },
+        "oline": {
+          "mAP50": 0.9756,
+          "mAP50-95": 0.6986,
+          "precision": 0.9627,
+          "recall": 0.9367
+        },
+        "qb": {
+          "mAP50": 0.9933,
+          "mAP50-95": 0.7538,
+          "precision": 0.9691,
+          "recall": 0.9789
+        },
+        "ref": {
+          "mAP50": 0.9845,
+          "mAP50-95": 0.6791,
+          "precision": 0.9659,
+          "recall": 0.9868
+        },
+        "skill": {
+          "mAP50": 0.9833,
+          "mAP50-95": 0.7737,
+          "precision": 0.9658,
+          "recall": 0.9511
+        }
+      }
+    }
+  },
+  "roboflow_yolo11l_640": {
+    "starting_point": "roboflow",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.6155,
+        "mAP50-95": 0.3297,
+        "precision": 0.6488,
+        "recall": 0.5611,
+        "ms_per_img": 37.64,
+        "fps": 26.6
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.6707,
+          "mAP50-95": 0.3871,
+          "precision": 0.6554,
+          "recall": 0.6471
+        },
+        "oline": {
+          "mAP50": 0.5392,
+          "mAP50-95": 0.2386,
+          "precision": 0.5384,
+          "recall": 0.6166
+        },
+        "qb": {
+          "mAP50": 0.5015,
+          "mAP50-95": 0.2534,
+          "precision": 0.5359,
+          "recall": 0.4206
+        },
+        "ref": {
+          "mAP50": 0.6734,
+          "mAP50-95": 0.3482,
+          "precision": 0.7901,
+          "recall": 0.5741
+        },
+        "skill": {
+          "mAP50": 0.6927,
+          "mAP50-95": 0.4211,
+          "precision": 0.7242,
+          "recall": 0.547
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9687,
+          "mAP50-95": 0.6538,
+          "precision": 0.9431,
+          "recall": 0.9272,
+          "ms_per_img": 131.28,
+          "fps": 7.6
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9758,
+            "mAP50-95": 0.636,
+            "precision": 0.9779,
+            "recall": 0.9403
+          },
+          "oline": {
+            "mAP50": 0.9019,
+            "mAP50-95": 0.5542,
+            "precision": 0.8755,
+            "recall": 0.7976
+          },
+          "qb": {
+            "mAP50": 0.9933,
+            "mAP50-95": 0.7102,
+            "precision": 0.9548,
+            "recall": 0.9594
+          },
+          "ref": {
+            "mAP50": 0.9859,
+            "mAP50-95": 0.6373,
+            "precision": 0.9404,
+            "recall": 0.9754
+          },
+          "skill": {
+            "mAP50": 0.9865,
+            "mAP50-95": 0.7314,
+            "precision": 0.9668,
+            "recall": 0.9633
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9764,
+          "mAP50-95": 0.6762,
+          "precision": 0.9533,
+          "recall": 0.9219,
+          "ms_per_img": 250.97,
+          "fps": 4.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.979,
+            "mAP50-95": 0.649,
+            "precision": 0.9545,
+            "recall": 0.9091
+          },
+          "oline": {
+            "mAP50": 0.9479,
+            "mAP50-95": 0.635,
+            "precision": 0.9457,
+            "recall": 0.8529
+          },
+          "qb": {
+            "mAP50": 0.9879,
+            "mAP50-95": 0.7382,
+            "precision": 0.9197,
+            "recall": 0.9545
+          },
+          "ref": {
+            "mAP50": 0.9834,
+            "mAP50-95": 0.6298,
+            "precision": 0.9661,
+            "recall": 0.9735
+          },
+          "skill": {
+            "mAP50": 0.9837,
+            "mAP50-95": 0.7289,
+            "precision": 0.9804,
+            "recall": 0.9197
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9662,
+          "mAP50-95": 0.6559,
+          "precision": 0.9336,
+          "recall": 0.912,
+          "ms_per_img": 141.28,
+          "fps": 7.1
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9803,
+            "mAP50-95": 0.6535,
+            "precision": 0.9601,
+            "recall": 0.9361
+          },
+          "oline": {
+            "mAP50": 0.9268,
+            "mAP50-95": 0.5827,
+            "precision": 0.9297,
+            "recall": 0.8182
+          },
+          "qb": {
+            "mAP50": 0.9735,
+            "mAP50-95": 0.6835,
+            "precision": 0.8822,
+            "recall": 0.9524
+          },
+          "ref": {
+            "mAP50": 0.9782,
+            "mAP50-95": 0.6441,
+            "precision": 0.954,
+            "recall": 0.958
+          },
+          "skill": {
+            "mAP50": 0.9721,
+            "mAP50-95": 0.7157,
+            "precision": 0.9421,
+            "recall": 0.8952
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9701,
+          "mAP50-95": 0.6791,
+          "precision": 0.918,
+          "recall": 0.9503,
+          "ms_per_img": 142.6,
+          "fps": 7.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.966,
+            "mAP50-95": 0.659,
+            "precision": 0.92,
+            "recall": 0.9285
+          },
+          "oline": {
+            "mAP50": 0.9357,
+            "mAP50-95": 0.5975,
+            "precision": 0.8694,
+            "recall": 0.8919
+          },
+          "qb": {
+            "mAP50": 0.9932,
+            "mAP50-95": 0.7626,
+            "precision": 0.954,
+            "recall": 0.9877
+          },
+          "ref": {
+            "mAP50": 0.9885,
+            "mAP50-95": 0.642,
+            "precision": 0.9487,
+            "recall": 0.982
+          },
+          "skill": {
+            "mAP50": 0.967,
+            "mAP50-95": 0.7345,
+            "precision": 0.898,
+            "recall": 0.9615
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9625,
+          "mAP50-95": 0.6473,
+          "precision": 0.9307,
+          "recall": 0.9157,
+          "ms_per_img": 130.67,
+          "fps": 7.7
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9636,
+            "mAP50-95": 0.6349,
+            "precision": 0.9354,
+            "recall": 0.9124
+          },
+          "oline": {
+            "mAP50": 0.9286,
+            "mAP50-95": 0.6147,
+            "precision": 0.8982,
+            "recall": 0.88
+          },
+          "qb": {
+            "mAP50": 0.968,
+            "mAP50-95": 0.6417,
+            "precision": 0.951,
+            "recall": 0.9246
+          },
+          "ref": {
+            "mAP50": 0.9688,
+            "mAP50-95": 0.6245,
+            "precision": 0.9177,
+            "recall": 0.947
+          },
+          "skill": {
+            "mAP50": 0.9835,
+            "mAP50-95": 0.7209,
+            "precision": 0.9512,
+            "recall": 0.9143
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9688,
+        "mAP50-95": 0.6625,
+        "precision": 0.9357,
+        "recall": 0.9254,
+        "ms_per_img": 159.36,
+        "fps": 6.68
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9729,
+          "mAP50-95": 0.6465,
+          "precision": 0.9496,
+          "recall": 0.9253
+        },
+        "oline": {
+          "mAP50": 0.9282,
+          "mAP50-95": 0.5968,
+          "precision": 0.9037,
+          "recall": 0.8481
+        },
+        "qb": {
+          "mAP50": 0.9832,
+          "mAP50-95": 0.7072,
+          "precision": 0.9323,
+          "recall": 0.9557
+        },
+        "ref": {
+          "mAP50": 0.981,
+          "mAP50-95": 0.6355,
+          "precision": 0.9454,
+          "recall": 0.9672
+        },
+        "skill": {
+          "mAP50": 0.9786,
+          "mAP50-95": 0.7263,
+          "precision": 0.9477,
+          "recall": 0.9308
+        }
+      }
+    }
+  },
+  "roboflow_yolo11l_1280": {
+    "starting_point": "roboflow",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.6993,
+        "mAP50-95": 0.4234,
+        "precision": 0.694,
+        "recall": 0.6194,
+        "ms_per_img": 40.27,
+        "fps": 24.8
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.8022,
+          "mAP50-95": 0.5103,
+          "precision": 0.7608,
+          "recall": 0.7494
+        },
+        "oline": {
+          "mAP50": 0.6794,
+          "mAP50-95": 0.3694,
+          "precision": 0.7108,
+          "recall": 0.5842
+        },
+        "qb": {
+          "mAP50": 0.536,
+          "mAP50-95": 0.3448,
+          "precision": 0.5234,
+          "recall": 0.4393
+        },
+        "ref": {
+          "mAP50": 0.7459,
+          "mAP50-95": 0.4011,
+          "precision": 0.7912,
+          "recall": 0.662
+        },
+        "skill": {
+          "mAP50": 0.7331,
+          "mAP50-95": 0.4913,
+          "precision": 0.6836,
+          "recall": 0.662
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9825,
+          "mAP50-95": 0.6971,
+          "precision": 0.9615,
+          "recall": 0.9466,
+          "ms_per_img": 206.34,
+          "fps": 4.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9933,
+            "mAP50-95": 0.708,
+            "precision": 0.9809,
+            "recall": 0.9702
+          },
+          "oline": {
+            "mAP50": 0.9663,
+            "mAP50-95": 0.6863,
+            "precision": 0.9565,
+            "recall": 0.907
+          },
+          "qb": {
+            "mAP50": 0.9842,
+            "mAP50-95": 0.6964,
+            "precision": 0.9241,
+            "recall": 0.9091
+          },
+          "ref": {
+            "mAP50": 0.9779,
+            "mAP50-95": 0.6269,
+            "precision": 0.9743,
+            "recall": 1.0
+          },
+          "skill": {
+            "mAP50": 0.9909,
+            "mAP50-95": 0.768,
+            "precision": 0.9717,
+            "recall": 0.9466
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9821,
+          "mAP50-95": 0.7212,
+          "precision": 0.9722,
+          "recall": 0.9569,
+          "ms_per_img": 268.4,
+          "fps": 3.7
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9901,
+            "mAP50-95": 0.7239,
+            "precision": 0.9776,
+            "recall": 0.9459
+          },
+          "oline": {
+            "mAP50": 0.9578,
+            "mAP50-95": 0.6835,
+            "precision": 0.9644,
+            "recall": 0.8922
+          },
+          "qb": {
+            "mAP50": 0.995,
+            "mAP50-95": 0.7784,
+            "precision": 0.9812,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.982,
+            "mAP50-95": 0.6625,
+            "precision": 0.9612,
+            "recall": 0.9829
+          },
+          "skill": {
+            "mAP50": 0.9856,
+            "mAP50-95": 0.7577,
+            "precision": 0.9767,
+            "recall": 0.9633
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9887,
+          "mAP50-95": 0.7178,
+          "precision": 0.9666,
+          "recall": 0.9732,
+          "ms_per_img": 166.76,
+          "fps": 6.0
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9906,
+            "mAP50-95": 0.7222,
+            "precision": 0.955,
+            "recall": 0.9817
+          },
+          "oline": {
+            "mAP50": 0.9854,
+            "mAP50-95": 0.687,
+            "precision": 0.9584,
+            "recall": 0.9588
+          },
+          "qb": {
+            "mAP50": 0.995,
+            "mAP50-95": 0.7305,
+            "precision": 0.973,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9868,
+            "mAP50-95": 0.6979,
+            "precision": 0.976,
+            "recall": 0.9832
+          },
+          "skill": {
+            "mAP50": 0.9855,
+            "mAP50-95": 0.7516,
+            "precision": 0.9706,
+            "recall": 0.9425
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9843,
+          "mAP50-95": 0.7351,
+          "precision": 0.9637,
+          "recall": 0.9586,
+          "ms_per_img": 276.06,
+          "fps": 3.6
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9886,
+            "mAP50-95": 0.7135,
+            "precision": 0.9833,
+            "recall": 0.9731
+          },
+          "oline": {
+            "mAP50": 0.9654,
+            "mAP50-95": 0.6807,
+            "precision": 0.9884,
+            "recall": 0.8807
+          },
+          "qb": {
+            "mAP50": 0.995,
+            "mAP50-95": 0.7789,
+            "precision": 0.9262,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9884,
+            "mAP50-95": 0.7003,
+            "precision": 0.9498,
+            "recall": 0.9912
+          },
+          "skill": {
+            "mAP50": 0.984,
+            "mAP50-95": 0.802,
+            "precision": 0.9705,
+            "recall": 0.948
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9821,
+          "mAP50-95": 0.7041,
+          "precision": 0.9642,
+          "recall": 0.9682,
+          "ms_per_img": 233.93,
+          "fps": 4.3
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9794,
+            "mAP50-95": 0.6809,
+            "precision": 0.9356,
+            "recall": 0.9631
+          },
+          "oline": {
+            "mAP50": 0.9746,
+            "mAP50-95": 0.7229,
+            "precision": 0.9506,
+            "recall": 0.9631
+          },
+          "qb": {
+            "mAP50": 0.995,
+            "mAP50-95": 0.7023,
+            "precision": 0.9947,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9802,
+            "mAP50-95": 0.6505,
+            "precision": 0.965,
+            "recall": 0.9623
+          },
+          "skill": {
+            "mAP50": 0.9811,
+            "mAP50-95": 0.7637,
+            "precision": 0.9751,
+            "recall": 0.9524
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9839,
+        "mAP50-95": 0.7151,
+        "precision": 0.9656,
+        "recall": 0.9607,
+        "ms_per_img": 230.298,
+        "fps": 4.48
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9884,
+          "mAP50-95": 0.7097,
+          "precision": 0.9665,
+          "recall": 0.9668
+        },
+        "oline": {
+          "mAP50": 0.9699,
+          "mAP50-95": 0.6921,
+          "precision": 0.9637,
+          "recall": 0.9204
+        },
+        "qb": {
+          "mAP50": 0.9928,
+          "mAP50-95": 0.7373,
+          "precision": 0.9598,
+          "recall": 0.9818
+        },
+        "ref": {
+          "mAP50": 0.9831,
+          "mAP50-95": 0.6676,
+          "precision": 0.9653,
+          "recall": 0.9839
+        },
+        "skill": {
+          "mAP50": 0.9854,
+          "mAP50-95": 0.7686,
+          "precision": 0.9729,
+          "recall": 0.9506
+        }
+      }
+    }
+  },
+  "roboflow_yolo11x_640": {
+    "starting_point": "roboflow",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.6359,
+        "mAP50-95": 0.3574,
+        "precision": 0.6271,
+        "recall": 0.6099,
+        "ms_per_img": 51.64,
+        "fps": 19.4
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.6895,
+          "mAP50-95": 0.4238,
+          "precision": 0.5789,
+          "recall": 0.7707
+        },
+        "oline": {
+          "mAP50": 0.5564,
+          "mAP50-95": 0.2539,
+          "precision": 0.529,
+          "recall": 0.6146
+        },
+        "qb": {
+          "mAP50": 0.5706,
+          "mAP50-95": 0.3206,
+          "precision": 0.632,
+          "recall": 0.4953
+        },
+        "ref": {
+          "mAP50": 0.6605,
+          "mAP50-95": 0.3375,
+          "precision": 0.7562,
+          "recall": 0.539
+        },
+        "skill": {
+          "mAP50": 0.7026,
+          "mAP50-95": 0.451,
+          "precision": 0.6394,
+          "recall": 0.6299
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9529,
+          "mAP50-95": 0.6425,
+          "precision": 0.9261,
+          "recall": 0.9097,
+          "ms_per_img": 210.04,
+          "fps": 4.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.975,
+            "mAP50-95": 0.6395,
+            "precision": 0.9579,
+            "recall": 0.9362
+          },
+          "oline": {
+            "mAP50": 0.8799,
+            "mAP50-95": 0.5577,
+            "precision": 0.9065,
+            "recall": 0.8351
+          },
+          "qb": {
+            "mAP50": 0.9488,
+            "mAP50-95": 0.6574,
+            "precision": 0.8264,
+            "recall": 0.9091
+          },
+          "ref": {
+            "mAP50": 0.9786,
+            "mAP50-95": 0.6212,
+            "precision": 0.966,
+            "recall": 0.9325
+          },
+          "skill": {
+            "mAP50": 0.9822,
+            "mAP50-95": 0.7366,
+            "precision": 0.9739,
+            "recall": 0.9358
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9816,
+          "mAP50-95": 0.6669,
+          "precision": 0.9523,
+          "recall": 0.9577,
+          "ms_per_img": 173.26,
+          "fps": 5.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.983,
+            "mAP50-95": 0.6557,
+            "precision": 0.9791,
+            "recall": 0.9307
+          },
+          "oline": {
+            "mAP50": 0.9572,
+            "mAP50-95": 0.6252,
+            "precision": 0.9373,
+            "recall": 0.9216
+          },
+          "qb": {
+            "mAP50": 0.995,
+            "mAP50-95": 0.716,
+            "precision": 0.9398,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9895,
+            "mAP50-95": 0.6265,
+            "precision": 0.9591,
+            "recall": 0.9744
+          },
+          "skill": {
+            "mAP50": 0.9835,
+            "mAP50-95": 0.7114,
+            "precision": 0.9459,
+            "recall": 0.9617
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9555,
+          "mAP50-95": 0.6505,
+          "precision": 0.9325,
+          "recall": 0.9075,
+          "ms_per_img": 295.31,
+          "fps": 3.4
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9767,
+            "mAP50-95": 0.6521,
+            "precision": 0.9283,
+            "recall": 0.9456
+          },
+          "oline": {
+            "mAP50": 0.8961,
+            "mAP50-95": 0.5799,
+            "precision": 0.8547,
+            "recall": 0.8488
+          },
+          "qb": {
+            "mAP50": 0.9663,
+            "mAP50-95": 0.6832,
+            "precision": 0.952,
+            "recall": 0.9444
+          },
+          "ref": {
+            "mAP50": 0.9732,
+            "mAP50-95": 0.6262,
+            "precision": 0.9823,
+            "recall": 0.9323
+          },
+          "skill": {
+            "mAP50": 0.965,
+            "mAP50-95": 0.7111,
+            "precision": 0.9453,
+            "recall": 0.8667
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9685,
+          "mAP50-95": 0.6614,
+          "precision": 0.9496,
+          "recall": 0.9197,
+          "ms_per_img": 223.66,
+          "fps": 4.5
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9651,
+            "mAP50-95": 0.658,
+            "precision": 0.9561,
+            "recall": 0.9327
+          },
+          "oline": {
+            "mAP50": 0.9372,
+            "mAP50-95": 0.5561,
+            "precision": 0.891,
+            "recall": 0.8423
+          },
+          "qb": {
+            "mAP50": 0.9891,
+            "mAP50-95": 0.6958,
+            "precision": 0.9795,
+            "recall": 0.9048
+          },
+          "ref": {
+            "mAP50": 0.9763,
+            "mAP50-95": 0.6444,
+            "precision": 0.9784,
+            "recall": 0.9646
+          },
+          "skill": {
+            "mAP50": 0.9748,
+            "mAP50-95": 0.7526,
+            "precision": 0.943,
+            "recall": 0.9542
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9721,
+          "mAP50-95": 0.6599,
+          "precision": 0.9487,
+          "recall": 0.9038,
+          "ms_per_img": 193.47,
+          "fps": 5.2
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9705,
+            "mAP50-95": 0.6357,
+            "precision": 0.9569,
+            "recall": 0.9217
+          },
+          "oline": {
+            "mAP50": 0.9458,
+            "mAP50-95": 0.6384,
+            "precision": 0.9091,
+            "recall": 0.8998
+          },
+          "qb": {
+            "mAP50": 0.9783,
+            "mAP50-95": 0.6835,
+            "precision": 0.9466,
+            "recall": 0.8448
+          },
+          "ref": {
+            "mAP50": 0.9857,
+            "mAP50-95": 0.615,
+            "precision": 0.9708,
+            "recall": 0.9418
+          },
+          "skill": {
+            "mAP50": 0.9805,
+            "mAP50-95": 0.7271,
+            "precision": 0.9598,
+            "recall": 0.9107
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9661,
+        "mAP50-95": 0.6562,
+        "precision": 0.9418,
+        "recall": 0.9197,
+        "ms_per_img": 219.148,
+        "fps": 4.74
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9741,
+          "mAP50-95": 0.6482,
+          "precision": 0.9557,
+          "recall": 0.9334
+        },
+        "oline": {
+          "mAP50": 0.9232,
+          "mAP50-95": 0.5915,
+          "precision": 0.8997,
+          "recall": 0.8695
+        },
+        "qb": {
+          "mAP50": 0.9755,
+          "mAP50-95": 0.6872,
+          "precision": 0.9289,
+          "recall": 0.9206
+        },
+        "ref": {
+          "mAP50": 0.9807,
+          "mAP50-95": 0.6267,
+          "precision": 0.9713,
+          "recall": 0.9491
+        },
+        "skill": {
+          "mAP50": 0.9772,
+          "mAP50-95": 0.7278,
+          "precision": 0.9536,
+          "recall": 0.9258
+        }
+      }
+    }
+  },
+  "roboflow_yolo11x_1280": {
+    "starting_point": "roboflow",
+    "baseline": {
+      "overall": {
+        "mAP50": 0.7386,
+        "mAP50-95": 0.4483,
+        "precision": 0.7104,
+        "recall": 0.6647,
+        "ms_per_img": 58.23,
+        "fps": 17.2
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.7998,
+          "mAP50-95": 0.5195,
+          "precision": 0.7308,
+          "recall": 0.7778
+        },
+        "oline": {
+          "mAP50": 0.719,
+          "mAP50-95": 0.3899,
+          "precision": 0.6994,
+          "recall": 0.6702
+        },
+        "qb": {
+          "mAP50": 0.6532,
+          "mAP50-95": 0.4108,
+          "precision": 0.6507,
+          "recall": 0.5794
+        },
+        "ref": {
+          "mAP50": 0.7495,
+          "mAP50-95": 0.4073,
+          "precision": 0.7257,
+          "recall": 0.6794
+        },
+        "skill": {
+          "mAP50": 0.7716,
+          "mAP50-95": 0.5141,
+          "precision": 0.7452,
+          "recall": 0.6165
+        }
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "overall": {
+          "mAP50": 0.9761,
+          "mAP50-95": 0.6928,
+          "precision": 0.9474,
+          "recall": 0.9611,
+          "ms_per_img": 187.57,
+          "fps": 5.3
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9934,
+            "mAP50-95": 0.7029,
+            "precision": 0.9913,
+            "recall": 0.9687
+          },
+          "oline": {
+            "mAP50": 0.9389,
+            "mAP50-95": 0.6389,
+            "precision": 0.8972,
+            "recall": 0.8866
+          },
+          "qb": {
+            "mAP50": 0.9911,
+            "mAP50-95": 0.7083,
+            "precision": 0.9433,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9689,
+            "mAP50-95": 0.6389,
+            "precision": 0.9682,
+            "recall": 0.9972
+          },
+          "skill": {
+            "mAP50": 0.9881,
+            "mAP50-95": 0.7752,
+            "precision": 0.9369,
+            "recall": 0.9528
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "overall": {
+          "mAP50": 0.9803,
+          "mAP50-95": 0.7183,
+          "precision": 0.9377,
+          "recall": 0.9733,
+          "ms_per_img": 267.97,
+          "fps": 3.7
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9893,
+            "mAP50-95": 0.7085,
+            "precision": 0.9574,
+            "recall": 0.961
+          },
+          "oline": {
+            "mAP50": 0.9768,
+            "mAP50-95": 0.6879,
+            "precision": 0.9699,
+            "recall": 0.951
+          },
+          "qb": {
+            "mAP50": 0.995,
+            "mAP50-95": 0.7995,
+            "precision": 0.9039,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9814,
+            "mAP50-95": 0.6734,
+            "precision": 0.9426,
+            "recall": 0.9819
+          },
+          "skill": {
+            "mAP50": 0.959,
+            "mAP50-95": 0.7222,
+            "precision": 0.9148,
+            "recall": 0.9725
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "overall": {
+          "mAP50": 0.9905,
+          "mAP50-95": 0.726,
+          "precision": 0.9799,
+          "recall": 0.9678,
+          "ms_per_img": 262.2,
+          "fps": 3.8
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.9909,
+            "mAP50-95": 0.7274,
+            "precision": 0.9687,
+            "recall": 0.9772
+          },
+          "oline": {
+            "mAP50": 0.9873,
+            "mAP50-95": 0.7017,
+            "precision": 0.9782,
+            "recall": 0.9263
+          },
+          "qb": {
+            "mAP50": 0.995,
+            "mAP50-95": 0.7668,
+            "precision": 0.9891,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9882,
+            "mAP50-95": 0.6961,
+            "precision": 0.9813,
+            "recall": 0.9832
+          },
+          "skill": {
+            "mAP50": 0.9911,
+            "mAP50-95": 0.7381,
+            "precision": 0.9819,
+            "recall": 0.9524
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "overall": {
+          "mAP50": 0.9869,
+          "mAP50-95": 0.7033,
+          "precision": 0.9662,
+          "recall": 0.9729,
+          "ms_per_img": 371.96,
+          "fps": 2.7
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.988,
+            "mAP50-95": 0.6851,
+            "precision": 0.9818,
+            "recall": 0.9776
+          },
+          "oline": {
+            "mAP50": 0.9804,
+            "mAP50-95": 0.6844,
+            "precision": 0.971,
+            "recall": 0.9072
+          },
+          "qb": {
+            "mAP50": 0.995,
+            "mAP50-95": 0.7482,
+            "precision": 0.9346,
+            "recall": 1.0
+          },
+          "ref": {
+            "mAP50": 0.9828,
+            "mAP50-95": 0.6405,
+            "precision": 0.9724,
+            "recall": 1.0
+          },
+          "skill": {
+            "mAP50": 0.9883,
+            "mAP50-95": 0.7583,
+            "precision": 0.9714,
+            "recall": 0.9799
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "overall": {
+          "mAP50": 0.9826,
+          "mAP50-95": 0.6967,
+          "precision": 0.959,
+          "recall": 0.9516,
+          "ms_per_img": 405.35,
+          "fps": 2.5
+        },
+        "per_class": {
+          "defense": {
+            "mAP50": 0.986,
+            "mAP50-95": 0.66,
+            "precision": 0.9642,
+            "recall": 0.9493
+          },
+          "oline": {
+            "mAP50": 0.9744,
+            "mAP50-95": 0.7126,
+            "precision": 0.9325,
+            "recall": 0.9665
+          },
+          "qb": {
+            "mAP50": 0.99,
+            "mAP50-95": 0.7263,
+            "precision": 1.0,
+            "recall": 0.9261
+          },
+          "ref": {
+            "mAP50": 0.9752,
+            "mAP50-95": 0.628,
+            "precision": 0.955,
+            "recall": 0.9623
+          },
+          "skill": {
+            "mAP50": 0.9877,
+            "mAP50-95": 0.7564,
+            "precision": 0.9435,
+            "recall": 0.954
+          }
+        }
+      }
+    ],
+    "finetuned_avg": {
+      "overall": {
+        "mAP50": 0.9833,
+        "mAP50-95": 0.7074,
+        "precision": 0.958,
+        "recall": 0.9653,
+        "ms_per_img": 299.01,
+        "fps": 3.6
+      },
+      "per_class": {
+        "defense": {
+          "mAP50": 0.9895,
+          "mAP50-95": 0.6968,
+          "precision": 0.9727,
+          "recall": 0.9668
+        },
+        "oline": {
+          "mAP50": 0.9716,
+          "mAP50-95": 0.6851,
+          "precision": 0.9498,
+          "recall": 0.9275
+        },
+        "qb": {
+          "mAP50": 0.9932,
+          "mAP50-95": 0.7498,
+          "precision": 0.9542,
+          "recall": 0.9852
+        },
+        "ref": {
+          "mAP50": 0.9793,
+          "mAP50-95": 0.6554,
+          "precision": 0.9639,
+          "recall": 0.9849
+        },
+        "skill": {
+          "mAP50": 0.9828,
+          "mAP50-95": 0.75,
+          "precision": 0.9497,
+          "recall": 0.9623
+        }
+      }
+    }
+  }
+}

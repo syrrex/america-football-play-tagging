@@ -1,0 +1,27 @@
+{
+  "config": {
+    "weights": "cross_stadium_results/2/train/weights/best.pt",
+    "quarter": "Q4",
+    "conf": 0.25
+  },
+  "player_projection": {
+    "n_frames_used": 27,
+    "n_frames_skipped": 1,
+    "n_players": 721,
+    "mean_err_yd": 21.527,
+    "med_err_yd": 6.316,
+    "p90_err_yd": 68.976
+  },
+  "keypoint_field_error": {
+    "n_frames_used": 776,
+    "n_frames_skipped": 0,
+    "n_points": 10428,
+    "det_rate": 0.6358,
+    "avg_n_correspondences": 18.7,
+    "n_below_min_correspondences": 62,
+    "pct_below_min_correspondences": 0.0799,
+    "mean_err_yd": 8.331,
+    "med_err_yd": 5.418,
+    "p90_err_yd": 18.469
+  }
+}

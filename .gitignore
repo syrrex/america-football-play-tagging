@@ -1,0 +1,60 @@
+# ── Data ───────────────────────────────────────────────────────────────────
+# Raw footage, frames, annotations and play-by-play metadata (~39 GB) are not
+# versioned; see Data/README.md for the expected layout.
+Data/*
+!Data/README.md
+Play_Analysis/extrinsic_evaluation/*.xlsx
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Bulk images rendered from game frames (YOLO training/val mosaics, pipeline
+# frames, per-clip diagnostic figures); regenerable from the scripts.
+**/train_batch*.jpg
+**/val_batch*.jpg
+**/labels.jpg
+Pipeline/output/
+Player_Tracking/output/
+Play_Analysis/evaluation/evaluation_output/misclassified*/
+Player_Detection/evaluation_output/qualitative_*.png
+
+# Auto-generated per-run YOLO plots; the numbers behind them stay in each
+# run's results.csv / *.json, and the thesis figures live in evaluation_output/.
+**/*_results*/**/*.png
+**/*_results*/**/*.jpg
+
+# ── Models ─────────────────────────────────────────────────────────────────
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+**/weights/
+Player_Detection/models/
+Player_Detection/roboflow_models/
+
+# ── Run artefacts ──────────────────────────────────────────────────────────
+runs/
+*.log
+*.out
+Field_Keypoint_Detection/logs/
+*.pkl
+
+# ── Python / Jupyter ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# ── Editors / OS / tooling ─────────────────────────────────────────────────
+.idea/
+.vscode/
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini

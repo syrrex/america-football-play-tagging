@@ -1,0 +1,32 @@
+{
+  "Midfield": {
+    "player_projection": {
+      "n_players": 1545,
+      "mean_err_yd": 0.671,
+      "med_err_yd": 0.478,
+      "p90_err_yd": 1.382
+    },
+    "keypoint_field_error": {
+      "n_points": 36694,
+      "n_frames_used": 1640,
+      "mean_err_yd": 1.271,
+      "med_err_yd": 0.769,
+      "p90_err_yd": 2.765
+    }
+  },
+  "Field ends": {
+    "player_projection": {
+      "n_players": 1287,
+      "mean_err_yd": 1.686,
+      "med_err_yd": 1.113,
+      "p90_err_yd": 3.639
+    },
+    "keypoint_field_error": {
+      "n_points": 19437,
+      "n_frames_used": 1280,
+      "mean_err_yd": 2.023,
+      "med_err_yd": 0.772,
+      "p90_err_yd": 3.074
+    }
+  }
+}

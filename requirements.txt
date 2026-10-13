@@ -1,0 +1,33 @@
+# Tested with Python 3.10 on Linux (WSL2) with an NVIDIA RTX 3090 / CUDA 12.6.
+# Versions are those of the environment the thesis results were produced in.
+#
+# Install PyTorch first, matching your CUDA version (https://pytorch.org), e.g.:
+#   pip install torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cu126
+torch==2.7.0
+torchvision==0.22.0
+
+# Detection + keypoints (YOLO11 / YOLO11-pose)
+ultralytics==8.3.235
+
+# SAM 3 video tracking. Sam3TrackerVideoModel was only available on the
+# transformers main branch at the time; this pins the exact commit used.
+# The facebook/sam3 checkpoint is gated on Hugging Face: request access, then
+# run `huggingface-cli login` before the first run.
+transformers @ git+https://github.com/huggingface/transformers@1b8ccf1ca027d25da70457d962ab9360bc9dbe8d
+accelerate==1.12.0
+supervision==0.27.0
+
+# Numerics, geometry, evaluation
+numpy==2.2.6
+opencv-python==4.12.0.88
+scipy==1.15.3
+scikit-learn==1.7.2
+pandas==2.3.3
+pillow==11.3.0
+PyYAML==6.0.3
+openpyxl==3.1.5
+
+# Plots and notebooks
+matplotlib==3.10.7
+jupyterlab==4.5.0
+ipykernel==7.1.0

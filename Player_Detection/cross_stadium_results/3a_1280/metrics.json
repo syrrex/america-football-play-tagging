@@ -1,0 +1,41 @@
+{
+  "overall": {
+    "mAP50": 0.8353,
+    "mAP50-95": 0.5169,
+    "precision": 0.8181,
+    "recall": 0.7409,
+    "fps": 29.8
+  },
+  "per_class": {
+    "defense": {
+      "mAP50": 0.8494,
+      "mAP50-95": 0.532,
+      "precision": 0.794,
+      "recall": 0.8016
+    },
+    "oline": {
+      "mAP50": 0.8392,
+      "mAP50-95": 0.4733,
+      "precision": 0.8099,
+      "recall": 0.8195
+    },
+    "qb": {
+      "mAP50": 0.8033,
+      "mAP50-95": 0.5014,
+      "precision": 0.8242,
+      "recall": 0.5981
+    },
+    "ref": {
+      "mAP50": 0.854,
+      "mAP50-95": 0.48,
+      "precision": 0.9099,
+      "recall": 0.7244
+    },
+    "skill": {
+      "mAP50": 0.8304,
+      "mAP50-95": 0.5978,
+      "precision": 0.7526,
+      "recall": 0.7607
+    }
+  }
+}

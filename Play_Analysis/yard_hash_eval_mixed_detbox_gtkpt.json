@@ -1,0 +1,1104 @@
+{
+  "box_source": "detected",
+  "kpt_source": "gt",
+  "n_clips": 107,
+  "n_no_homography": 0,
+  "n_no_call": 0,
+  "yardline": {
+    "mean_err_yd": 0.59,
+    "median_err_yd": 0.43,
+    "max_err_yd": 2.17
+  },
+  "hash": {
+    "accuracy": 0.9907,
+    "confusion_matrix": {
+      "L": {
+        "L": 47,
+        "M": 0,
+        "R": 0
+      },
+      "M": {
+        "L": 0,
+        "M": 21,
+        "R": 1
+      },
+      "R": {
+        "L": 0,
+        "M": 0,
+        "R": 38
+      }
+    }
+  },
+  "predictions": [
+    {
+      "clip": "clip_007.mp4",
+      "true_yardline": 42.0,
+      "pred_yardline": 42.13,
+      "yardline_err": 0.13,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 3,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_008.mp4",
+      "true_yardline": 15.0,
+      "pred_yardline": 15.7,
+      "yardline_err": 0.7,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_009.mp4",
+      "true_yardline": 16.0,
+      "pred_yardline": 16.44,
+      "yardline_err": 0.44,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_010.mp4",
+      "true_yardline": 16.0,
+      "pred_yardline": 16.17,
+      "yardline_err": 0.17,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 6,
+      "n_defense_det": 9
+    },
+    {
+      "clip": "clip_011.mp4",
+      "true_yardline": 16.0,
+      "pred_yardline": 16.34,
+      "yardline_err": 0.34,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_012.mp4",
+      "true_yardline": 4.0,
+      "pred_yardline": 4.75,
+      "yardline_err": 0.75,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 6,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_013.mp4",
+      "true_yardline": 1.0,
+      "pred_yardline": 2.13,
+      "yardline_err": 1.13,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 7,
+      "n_defense_det": 9
+    },
+    {
+      "clip": "clip_016.mp4",
+      "true_yardline": -35.0,
+      "pred_yardline": -36.9,
+      "yardline_err": 1.9,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_017.mp4",
+      "true_yardline": -35.0,
+      "pred_yardline": -36.8,
+      "yardline_err": 1.8,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 5,
+      "n_defense_det": 12
+    },
+    {
+      "clip": "clip_018.mp4",
+      "true_yardline": -35.0,
+      "pred_yardline": -36.91,
+      "yardline_err": 1.91,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_019.mp4",
+      "true_yardline": -39.0,
+      "pred_yardline": -40.88,
+      "yardline_err": 1.88,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 9
+    },
+    {
+      "clip": "clip_020.mp4",
+      "true_yardline": 39.0,
+      "pred_yardline": 41.11,
+      "yardline_err": 2.11,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 3,
+      "n_defense_det": 14
+    },
+    {
+      "clip": "clip_021.mp4",
+      "true_yardline": 39.0,
+      "pred_yardline": 41.12,
+      "yardline_err": 2.12,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 13
+    },
+    {
+      "clip": "clip_022.mp4",
+      "true_yardline": 34.0,
+      "pred_yardline": 36.17,
+      "yardline_err": 2.17,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 12
+    },
+    {
+      "clip": "clip_023.mp4",
+      "true_yardline": 11.0,
+      "pred_yardline": 12.31,
+      "yardline_err": 1.31,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 7,
+      "n_defense_det": 9
+    },
+    {
+      "clip": "clip_024.mp4",
+      "true_yardline": 4.0,
+      "pred_yardline": 4.24,
+      "yardline_err": 0.24,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 8,
+      "n_defense_det": 12
+    },
+    {
+      "clip": "clip_025.mp4",
+      "true_yardline": 4.0,
+      "pred_yardline": 4.45,
+      "yardline_err": 0.45,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 5,
+      "n_defense_det": 8
+    },
+    {
+      "clip": "clip_027.mp4",
+      "true_yardline": -20.0,
+      "pred_yardline": -19.86,
+      "yardline_err": 0.14,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 13
+    },
+    {
+      "clip": "clip_028.mp4",
+      "true_yardline": -20.0,
+      "pred_yardline": -20.53,
+      "yardline_err": 0.53,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 6,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_029.mp4",
+      "true_yardline": 20.0,
+      "pred_yardline": 20.65,
+      "yardline_err": 0.65,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 5,
+      "n_defense_det": 13
+    },
+    {
+      "clip": "clip_030.mp4",
+      "true_yardline": 13.0,
+      "pred_yardline": 13.58,
+      "yardline_err": 0.58,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 7,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_031.mp4",
+      "true_yardline": 8.0,
+      "pred_yardline": 7.55,
+      "yardline_err": 0.45,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 5,
+      "n_defense_det": 6
+    },
+    {
+      "clip": "clip_032.mp4",
+      "true_yardline": 3.0,
+      "pred_yardline": 1.79,
+      "yardline_err": 1.21,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 5,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_033.mp4",
+      "true_yardline": 3.0,
+      "pred_yardline": 1.6,
+      "yardline_err": 1.4,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 7,
+      "n_defense_det": 8
+    },
+    {
+      "clip": "clip_034.mp4",
+      "true_yardline": 4.0,
+      "pred_yardline": 4.5,
+      "yardline_err": 0.5,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 6,
+      "n_defense_det": 8
+    },
+    {
+      "clip": "clip_035.mp4",
+      "true_yardline": -4.0,
+      "pred_yardline": -3.81,
+      "yardline_err": 0.19,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 6,
+      "n_defense_det": 14
+    },
+    {
+      "clip": "clip_037.mp4",
+      "true_yardline": -6.0,
+      "pred_yardline": -5.99,
+      "yardline_err": 0.01,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 15
+    },
+    {
+      "clip": "clip_038.mp4",
+      "true_yardline": -10.0,
+      "pred_yardline": -11.0,
+      "yardline_err": 1.0,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 8,
+      "n_defense_det": 13
+    },
+    {
+      "clip": "clip_039.mp4",
+      "true_yardline": -25.0,
+      "pred_yardline": -25.43,
+      "yardline_err": 0.43,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 5,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_040.mp4",
+      "true_yardline": -29.0,
+      "pred_yardline": -27.58,
+      "yardline_err": 1.42,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 4,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_041.mp4",
+      "true_yardline": -44.0,
+      "pred_yardline": -42.89,
+      "yardline_err": 1.11,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 3,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_042.mp4",
+      "true_yardline": -49.0,
+      "pred_yardline": -48.98,
+      "yardline_err": 0.02,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 3,
+      "n_defense_det": 12
+    },
+    {
+      "clip": "clip_043.mp4",
+      "true_yardline": 50.0,
+      "pred_yardline": -49.92,
+      "yardline_err": 0.08,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_044.mp4",
+      "true_yardline": 43.0,
+      "pred_yardline": 43.24,
+      "yardline_err": 0.24,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 13
+    },
+    {
+      "clip": "clip_045.mp4",
+      "true_yardline": -31.0,
+      "pred_yardline": -31.26,
+      "yardline_err": 0.26,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_046.mp4",
+      "true_yardline": 48.0,
+      "pred_yardline": 47.94,
+      "yardline_err": 0.06,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 3,
+      "n_defense_det": 12
+    },
+    {
+      "clip": "clip_047.mp4",
+      "true_yardline": 44.0,
+      "pred_yardline": 44.05,
+      "yardline_err": 0.05,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 3,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_048.mp4",
+      "true_yardline": 44.0,
+      "pred_yardline": 44.28,
+      "yardline_err": 0.28,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 3,
+      "n_defense_det": 9
+    },
+    {
+      "clip": "clip_050.mp4",
+      "true_yardline": 34.0,
+      "pred_yardline": 34.4,
+      "yardline_err": 0.4,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 4,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_053.mp4",
+      "true_yardline": -33.0,
+      "pred_yardline": -32.6,
+      "yardline_err": 0.4,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_054.mp4",
+      "true_yardline": -34.0,
+      "pred_yardline": -33.83,
+      "yardline_err": 0.17,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 4,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_055.mp4",
+      "true_yardline": -37.0,
+      "pred_yardline": -36.94,
+      "yardline_err": 0.06,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 3,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_056.mp4",
+      "true_yardline": 18.0,
+      "pred_yardline": 17.24,
+      "yardline_err": 0.76,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 6,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_057.mp4",
+      "true_yardline": 16.0,
+      "pred_yardline": 15.31,
+      "yardline_err": 0.69,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 6,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_058.mp4",
+      "true_yardline": 11.0,
+      "pred_yardline": 10.95,
+      "yardline_err": 0.05,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 6,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_059.mp4",
+      "true_yardline": 8.0,
+      "pred_yardline": 7.26,
+      "yardline_err": 0.74,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 6,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_060.mp4",
+      "true_yardline": 5.0,
+      "pred_yardline": 5.5,
+      "yardline_err": 0.5,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 5,
+      "n_defense_det": 13
+    },
+    {
+      "clip": "clip_061.mp4",
+      "true_yardline": 5.0,
+      "pred_yardline": 5.3,
+      "yardline_err": 0.3,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 6,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_063.mp4",
+      "true_yardline": -20.0,
+      "pred_yardline": -20.82,
+      "yardline_err": 0.82,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 4,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_064.mp4",
+      "true_yardline": -20.0,
+      "pred_yardline": -20.42,
+      "yardline_err": 0.42,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 7,
+      "n_defense_det": 12
+    },
+    {
+      "clip": "clip_065.mp4",
+      "true_yardline": -20.0,
+      "pred_yardline": -19.31,
+      "yardline_err": 0.69,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 8,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_068.mp4",
+      "true_yardline": 30.0,
+      "pred_yardline": 30.36,
+      "yardline_err": 0.36,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_069.mp4",
+      "true_yardline": 29.0,
+      "pred_yardline": 29.32,
+      "yardline_err": 0.32,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 7
+    },
+    {
+      "clip": "clip_070.mp4",
+      "true_yardline": 23.0,
+      "pred_yardline": 22.3,
+      "yardline_err": 0.7,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_077.mp4",
+      "true_yardline": -36.0,
+      "pred_yardline": -36.46,
+      "yardline_err": 0.46,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_078.mp4",
+      "true_yardline": -35.0,
+      "pred_yardline": -35.71,
+      "yardline_err": 0.71,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_079.mp4",
+      "true_yardline": 30.0,
+      "pred_yardline": 30.43,
+      "yardline_err": 0.43,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 9
+    },
+    {
+      "clip": "clip_080.mp4",
+      "true_yardline": 26.0,
+      "pred_yardline": 27.52,
+      "yardline_err": 1.52,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_081.mp4",
+      "true_yardline": 8.0,
+      "pred_yardline": 9.03,
+      "yardline_err": 1.03,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 6,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_082.mp4",
+      "true_yardline": 5.0,
+      "pred_yardline": 5.11,
+      "yardline_err": 0.11,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 7,
+      "n_defense_det": 8
+    },
+    {
+      "clip": "clip_084.mp4",
+      "true_yardline": 10.0,
+      "pred_yardline": 10.23,
+      "yardline_err": 0.23,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 7,
+      "n_defense_det": 9
+    },
+    {
+      "clip": "clip_087.mp4",
+      "true_yardline": -35.0,
+      "pred_yardline": -34.63,
+      "yardline_err": 0.37,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_088.mp4",
+      "true_yardline": -32.0,
+      "pred_yardline": -32.64,
+      "yardline_err": 0.64,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 6,
+      "n_defense_det": 9
+    },
+    {
+      "clip": "clip_089.mp4",
+      "true_yardline": -37.0,
+      "pred_yardline": -36.79,
+      "yardline_err": 0.21,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_091.mp4",
+      "true_yardline": 37.0,
+      "pred_yardline": 37.39,
+      "yardline_err": 0.39,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_092.mp4",
+      "true_yardline": 39.0,
+      "pred_yardline": 39.52,
+      "yardline_err": 0.52,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 4,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_093.mp4",
+      "true_yardline": 26.0,
+      "pred_yardline": 26.48,
+      "yardline_err": 0.48,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_094.mp4",
+      "true_yardline": 15.0,
+      "pred_yardline": 14.69,
+      "yardline_err": 0.31,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 12
+    },
+    {
+      "clip": "clip_095.mp4",
+      "true_yardline": 11.0,
+      "pred_yardline": 11.39,
+      "yardline_err": 0.39,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 6,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_096.mp4",
+      "true_yardline": 9.0,
+      "pred_yardline": 8.47,
+      "yardline_err": 0.53,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 6,
+      "n_defense_det": 13
+    },
+    {
+      "clip": "clip_097.mp4",
+      "true_yardline": 9.0,
+      "pred_yardline": 8.33,
+      "yardline_err": 0.67,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 7,
+      "n_defense_det": 13
+    },
+    {
+      "clip": "clip_098.mp4",
+      "true_yardline": -9.0,
+      "pred_yardline": -8.84,
+      "yardline_err": 0.16,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 7,
+      "n_defense_det": 14
+    },
+    {
+      "clip": "clip_099.mp4",
+      "true_yardline": -13.0,
+      "pred_yardline": -12.13,
+      "yardline_err": 0.87,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 5,
+      "n_defense_det": 14
+    },
+    {
+      "clip": "clip_100.mp4",
+      "true_yardline": -48.0,
+      "pred_yardline": -47.1,
+      "yardline_err": 0.9,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 3,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_101.mp4",
+      "true_yardline": -49.0,
+      "pred_yardline": -49.0,
+      "yardline_err": 0.0,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_102.mp4",
+      "true_yardline": -49.0,
+      "pred_yardline": -49.24,
+      "yardline_err": 0.24,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 5,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_103.mp4",
+      "true_yardline": 40.0,
+      "pred_yardline": 39.97,
+      "yardline_err": 0.03,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 3,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_104.mp4",
+      "true_yardline": 39.0,
+      "pred_yardline": 39.19,
+      "yardline_err": 0.19,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_105.mp4",
+      "true_yardline": 39.0,
+      "pred_yardline": 39.2,
+      "yardline_err": 0.2,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_107.mp4",
+      "true_yardline": 29.0,
+      "pred_yardline": 29.59,
+      "yardline_err": 0.59,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 12
+    },
+    {
+      "clip": "clip_108.mp4",
+      "true_yardline": 29.0,
+      "pred_yardline": 29.46,
+      "yardline_err": 0.46,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_111.mp4",
+      "true_yardline": -25.0,
+      "pred_yardline": -24.27,
+      "yardline_err": 0.73,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 4,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_112.mp4",
+      "true_yardline": -41.0,
+      "pred_yardline": -41.0,
+      "yardline_err": 0.0,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 6,
+      "n_defense_det": 12
+    },
+    {
+      "clip": "clip_113.mp4",
+      "true_yardline": -39.0,
+      "pred_yardline": -38.9,
+      "yardline_err": 0.1,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_114.mp4",
+      "true_yardline": -39.0,
+      "pred_yardline": -38.76,
+      "yardline_err": 0.24,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 5,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_115.mp4",
+      "true_yardline": 36.0,
+      "pred_yardline": 36.21,
+      "yardline_err": 0.21,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 5,
+      "n_defense_det": 15
+    },
+    {
+      "clip": "clip_116.mp4",
+      "true_yardline": 21.0,
+      "pred_yardline": 21.42,
+      "yardline_err": 0.42,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 6,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_117.mp4",
+      "true_yardline": 18.0,
+      "pred_yardline": 18.29,
+      "yardline_err": 0.29,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 6,
+      "n_defense_det": 9
+    },
+    {
+      "clip": "clip_119.mp4",
+      "true_yardline": 20.0,
+      "pred_yardline": 19.81,
+      "yardline_err": 0.19,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 7,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_120.mp4",
+      "true_yardline": 20.0,
+      "pred_yardline": 20.5,
+      "yardline_err": 0.5,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_121.mp4",
+      "true_yardline": 5.0,
+      "pred_yardline": 5.35,
+      "yardline_err": 0.35,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 6,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_122.mp4",
+      "true_yardline": 3.0,
+      "pred_yardline": 3.68,
+      "yardline_err": 0.68,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 7,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_123.mp4",
+      "true_yardline": 18.0,
+      "pred_yardline": 19.2,
+      "yardline_err": 1.2,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_124.mp4",
+      "true_yardline": 18.0,
+      "pred_yardline": 18.26,
+      "yardline_err": 0.26,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_126.mp4",
+      "true_yardline": -29.0,
+      "pred_yardline": -29.27,
+      "yardline_err": 0.27,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 6,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_127.mp4",
+      "true_yardline": -40.0,
+      "pred_yardline": -40.0,
+      "yardline_err": 0.0,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_128.mp4",
+      "true_yardline": -38.0,
+      "pred_yardline": -38.99,
+      "yardline_err": 0.99,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_129.mp4",
+      "true_yardline": -46.0,
+      "pred_yardline": -46.03,
+      "yardline_err": 0.03,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 9
+    },
+    {
+      "clip": "clip_131.mp4",
+      "true_yardline": -2.0,
+      "pred_yardline": -4.14,
+      "yardline_err": 2.14,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 8,
+      "n_defense_det": 13
+    },
+    {
+      "clip": "clip_133.mp4",
+      "true_yardline": -17.0,
+      "pred_yardline": -15.72,
+      "yardline_err": 1.28,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 5,
+      "n_defense_det": 12
+    },
+    {
+      "clip": "clip_134.mp4",
+      "true_yardline": -17.0,
+      "pred_yardline": -16.54,
+      "yardline_err": 0.46,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 6,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_135.mp4",
+      "true_yardline": -22.0,
+      "pred_yardline": -21.98,
+      "yardline_err": 0.02,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 11
+    },
+    {
+      "clip": "clip_137.mp4",
+      "true_yardline": 39.0,
+      "pred_yardline": 39.21,
+      "yardline_err": 0.21,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 12
+    },
+    {
+      "clip": "clip_138.mp4",
+      "true_yardline": 35.0,
+      "pred_yardline": 35.29,
+      "yardline_err": 0.29,
+      "true_hash": "L",
+      "pred_hash": "L",
+      "n_oline_det": 4,
+      "n_defense_det": 12
+    },
+    {
+      "clip": "clip_140.mp4",
+      "true_yardline": 27.0,
+      "pred_yardline": 27.29,
+      "yardline_err": 0.29,
+      "true_hash": "R",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_141.mp4",
+      "true_yardline": 16.0,
+      "pred_yardline": 16.69,
+      "yardline_err": 0.69,
+      "true_hash": "M",
+      "pred_hash": "R",
+      "n_oline_det": 5,
+      "n_defense_det": 10
+    },
+    {
+      "clip": "clip_144.mp4",
+      "true_yardline": -35.0,
+      "pred_yardline": -33.86,
+      "yardline_err": 1.14,
+      "true_hash": "M",
+      "pred_hash": "M",
+      "n_oline_det": 4,
+      "n_defense_det": 11
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "overall": {
+    "n_frames": 748,
+    "n_gt_total": 15827,
+    "n_det_total": 13069,
+    "det_rate": 0.8257,
+    "mean_err_px": 166.89,
+    "med_err_px": 39.79,
+    "p90_err_px": 528.04,
+    "mean_err_norm": 0.07576
+  },
+  "per_keypoint": {
+    "1": {
+      "n_gt": 200,
+      "n_detected": 200,
+      "det_rate": 1.0,
+      "mean_err_px": 634.84,
+      "med_err_px": 556.89,
+      "mean_err_norm": 0.28818,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "2": {
+      "n_gt": 373,
+      "n_detected": 221,
+      "det_rate": 0.5925,
+      "mean_err_px": 300.66,
+      "med_err_px": 119.19,
+      "mean_err_norm": 0.13648,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "3": {
+      "n_gt": 351,
+      "n_detected": 246,
+      "det_rate": 0.7009,
+      "mean_err_px": 437.96,
+      "med_err_px": 360.0,
+      "mean_err_norm": 0.19881,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "4": {
+      "n_gt": 344,
+      "n_detected": 301,
+      "det_rate": 0.875,
+      "mean_err_px": 30.72,
+      "med_err_px": 27.35,
+      "mean_err_norm": 0.01394,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "5": {
+      "n_gt": 380,
+      "n_detected": 373,
+      "det_rate": 0.9816,
+      "mean_err_px": 28.16,
+      "med_err_px": 20.89,
+      "mean_err_norm": 0.01278,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "6": {
+      "n_gt": 331,
+      "n_detected": 322,
+      "det_rate": 0.9728,
+      "mean_err_px": 29.34,
+      "med_err_px": 21.96,
+      "mean_err_norm": 0.01332,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "7": {
+      "n_gt": 341,
+      "n_detected": 332,
+      "det_rate": 0.9736,
+      "mean_err_px": 37.46,
+      "med_err_px": 31.59,
+      "mean_err_norm": 0.017,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "8": {
+      "n_gt": 263,
+      "n_detected": 251,
+      "det_rate": 0.9544,
+      "mean_err_px": 41.09,
+      "med_err_px": 25.86,
+      "mean_err_norm": 0.01865,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "9": {
+      "n_gt": 233,
+      "n_detected": 210,
+      "det_rate": 0.9013,
+      "mean_err_px": 23.72,
+      "med_err_px": 18.5,
+      "mean_err_norm": 0.01077,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "10": {
+      "n_gt": 178,
+      "n_detected": 150,
+      "det_rate": 0.8427,
+      "mean_err_px": 31.0,
+      "med_err_px": 25.52,
+      "mean_err_norm": 0.01407,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "11": {
+      "n_gt": 233,
+      "n_detected": 158,
+      "det_rate": 0.6781,
+      "mean_err_px": 281.3,
+      "med_err_px": 291.56,
+      "mean_err_norm": 0.12769,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "12": {
+      "n_gt": 254,
+      "n_detected": 173,
+      "det_rate": 0.6811,
+      "mean_err_px": 624.81,
+      "med_err_px": 528.96,
+      "mean_err_norm": 0.28363,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "13": {
+      "n_gt": 247,
+      "n_detected": 159,
+      "det_rate": 0.6437,
+      "mean_err_px": 239.62,
+      "med_err_px": 128.57,
+      "mean_err_norm": 0.10877,
+      "group": "Sideline top  (1\u201313)"
+    },
+    "15": {
+      "n_gt": 12,
+      "n_detected": 0,
+      "det_rate": 0.0,
+      "mean_err_px": null,
+      "med_err_px": null,
+      "mean_err_norm": null,
+      "group": "Sideline bot  (14\u201326)"
+    },
+    "16": {
+      "n_gt": 93,
+      "n_detected": 27,
+      "det_rate": 0.2903,
+      "mean_err_px": 1054.07,
+      "med_err_px": 1086.62,
+      "mean_err_norm": 0.47849,
+      "group": "Sideline bot  (14\u201326)"
+    },
+    "17": {
+      "n_gt": 200,
+      "n_detected": 176,
+      "det_rate": 0.88,
+      "mean_err_px": 201.99,
+      "med_err_px": 159.58,
+      "mean_err_norm": 0.09169,
+      "group": "Sideline bot  (14\u201326)"
+    },
+    "18": {
+      "n_gt": 148,
+      "n_detected": 148,
+      "det_rate": 1.0,
+      "mean_err_px": 294.3,
+      "med_err_px": 395.14,
+      "mean_err_norm": 0.1336,
+      "group": "Sideline bot  (14\u201326)"
+    },
+    "19": {
+      "n_gt": 352,
+      "n_detected": 288,
+      "det_rate": 0.8182,
+      "mean_err_px": 30.79,
+      "med_err_px": 30.95,
+      "mean_err_norm": 0.01398,
+      "group": "Sideline bot  (14\u201326)"
+    },
+    "20": {
+      "n_gt": 261,
+      "n_detected": 258,
+      "det_rate": 0.9885,
+      "mean_err_px": 35.17,
+      "med_err_px": 25.46,
+      "mean_err_norm": 0.01597,
+      "group": "Sideline bot  (14\u201326)"
+    },
+    "21": {
+      "n_gt": 194,
+      "n_detected": 151,
+      "det_rate": 0.7784,
+      "mean_err_px": 114.01,
+      "med_err_px": 106.48,
+      "mean_err_norm": 0.05176,
+      "group": "Sideline bot  (14\u201326)"
+    },
+    "22": {
+      "n_gt": 247,
+      "n_detected": 156,
+      "det_rate": 0.6316,
+      "mean_err_px": 354.26,
+      "med_err_px": 282.1,
+      "mean_err_norm": 0.16081,
+      "group": "Sideline bot  (14\u201326)"
+    },
+    "23": {
+      "n_gt": 189,
+      "n_detected": 126,
+      "det_rate": 0.6667,
+      "mean_err_px": 1146.82,
+      "med_err_px": 1109.02,
+      "mean_err_norm": 0.52059,
+      "group": "Sideline bot  (14\u201326)"
+    },
+    "24": {
+      "n_gt": 164,
+      "n_detected": 104,
+      "det_rate": 0.6341,
+      "mean_err_px": 1509.46,
+      "med_err_px": 1505.69,
+      "mean_err_norm": 0.68521,
+      "group": "Sideline bot  (14\u201326)"
+    },
+    "25": {
+      "n_gt": 39,
+      "n_detected": 15,
+      "det_rate": 0.3846,
+      "mean_err_px": 1708.33,
+      "med_err_px": 1695.68,
+      "mean_err_norm": 0.77549,
+      "group": "Sideline bot  (14\u201326)"
+    },
+    "27": {
+      "n_gt": 398,
+      "n_detected": 301,
+      "det_rate": 0.7563,
+      "mean_err_px": 272.39,
+      "med_err_px": 54.77,
+      "mean_err_norm": 0.12365,
+      "group": "Numbers top   (27\u201335)"
+    },
+    "28": {
+      "n_gt": 304,
+      "n_detected": 245,
+      "det_rate": 0.8059,
+      "mean_err_px": 48.31,
+      "med_err_px": 34.01,
+      "mean_err_norm": 0.02193,
+      "group": "Numbers top   (27\u201335)"
+    },
+    "29": {
+      "n_gt": 380,
+      "n_detected": 371,
+      "det_rate": 0.9763,
+      "mean_err_px": 24.89,
+      "med_err_px": 20.38,
+      "mean_err_norm": 0.0113,
+      "group": "Numbers top   (27\u201335)"
+    },
+    "30": {
+      "n_gt": 371,
+      "n_detected": 333,
+      "det_rate": 0.8976,
+      "mean_err_px": 25.44,
+      "med_err_px": 19.58,
+      "mean_err_norm": 0.01155,
+      "group": "Numbers top   (27\u201335)"
+    },
+    "31": {
+      "n_gt": 346,
+      "n_detected": 340,
+      "det_rate": 0.9827,
+      "mean_err_px": 32.96,
+      "med_err_px": 26.14,
+      "mean_err_norm": 0.01496,
+      "group": "Numbers top   (27\u201335)"
+    },
+    "32": {
+      "n_gt": 263,
+      "n_detected": 251,
+      "det_rate": 0.9544,
+      "mean_err_px": 38.2,
+      "med_err_px": 20.96,
+      "mean_err_norm": 0.01734,
+      "group": "Numbers top   (27\u201335)"
+    },
+    "33": {
+      "n_gt": 191,
+      "n_detected": 169,
+      "det_rate": 0.8848,
+      "mean_err_px": 24.45,
+      "med_err_px": 17.29,
+      "mean_err_norm": 0.0111,
+      "group": "Numbers top   (27\u201335)"
+    },
+    "34": {
+      "n_gt": 192,
+      "n_detected": 148,
+      "det_rate": 0.7708,
+      "mean_err_px": 33.6,
+      "med_err_px": 23.57,
+      "mean_err_norm": 0.01525,
+      "group": "Numbers top   (27\u201335)"
+    },
+    "35": {
+      "n_gt": 255,
+      "n_detected": 190,
+      "det_rate": 0.7451,
+      "mean_err_px": 304.72,
+      "med_err_px": 223.43,
+      "mean_err_norm": 0.13833,
+      "group": "Numbers top   (27\u201335)"
+    },
+    "36": {
+      "n_gt": 200,
+      "n_detected": 171,
+      "det_rate": 0.855,
+      "mean_err_px": 206.88,
+      "med_err_px": 160.14,
+      "mean_err_norm": 0.09391,
+      "group": "Numbers bot   (36\u201344)"
+    },
+    "37": {
+      "n_gt": 200,
+      "n_detected": 200,
+      "det_rate": 1.0,
+      "mean_err_px": 228.04,
+      "med_err_px": 128.95,
+      "mean_err_norm": 0.10352,
+      "group": "Numbers bot   (36\u201344)"
+    },
+    "38": {
+      "n_gt": 405,
+      "n_detected": 295,
+      "det_rate": 0.7284,
+      "mean_err_px": 406.16,
+      "med_err_px": 356.01,
+      "mean_err_norm": 0.18438,
+      "group": "Numbers bot   (36\u201344)"
+    },
+    "39": {
+      "n_gt": 380,
+      "n_detected": 371,
+      "det_rate": 0.9763,
+      "mean_err_px": 34.03,
+      "med_err_px": 29.8,
+      "mean_err_norm": 0.01545,
+      "group": "Numbers bot   (36\u201344)"
+    },
+    "40": {
+      "n_gt": 281,
+      "n_detected": 274,
+      "det_rate": 0.9751,
+      "mean_err_px": 31.32,
+      "med_err_px": 21.52,
+      "mean_err_norm": 0.01422,
+      "group": "Numbers bot   (36\u201344)"
+    },
+    "41": {
+      "n_gt": 200,
+      "n_detected": 167,
+      "det_rate": 0.835,
+      "mean_err_px": 28.29,
+      "med_err_px": 23.34,
+      "mean_err_norm": 0.01284,
+      "group": "Numbers bot   (36\u201344)"
+    },
+    "42": {
+      "n_gt": 255,
+      "n_detected": 187,
+      "det_rate": 0.7333,
+      "mean_err_px": 313.59,
+      "med_err_px": 181.4,
+      "mean_err_norm": 0.14235,
+      "group": "Numbers bot   (36\u201344)"
+    },
+    "43": {
+      "n_gt": 245,
+      "n_detected": 132,
+      "det_rate": 0.5388,
+      "mean_err_px": 239.02,
+      "med_err_px": 189.76,
+      "mean_err_norm": 0.1085,
+      "group": "Numbers bot   (36\u201344)"
+    },
+    "44": {
+      "n_gt": 189,
+      "n_detected": 126,
+      "det_rate": 0.6667,
+      "mean_err_px": 667.45,
+      "med_err_px": 652.79,
+      "mean_err_norm": 0.30298,
+      "group": "Numbers bot   (36\u201344)"
+    },
+    "45": {
+      "n_gt": 288,
+      "n_detected": 216,
+      "det_rate": 0.75,
+      "mean_err_px": 273.71,
+      "med_err_px": 100.11,
+      "mean_err_norm": 0.12425,
+      "group": "Hash top      (45\u201353)"
+    },
+    "46": {
+      "n_gt": 339,
+      "n_detected": 236,
+      "det_rate": 0.6962,
+      "mean_err_px": 398.86,
+      "med_err_px": 364.16,
+      "mean_err_norm": 0.18106,
+      "group": "Hash top      (45\u201353)"
+    },
+    "47": {
+      "n_gt": 352,
+      "n_detected": 348,
+      "det_rate": 0.9886,
+      "mean_err_px": 23.78,
+      "med_err_px": 19.92,
+      "mean_err_norm": 0.0108,
+      "group": "Hash top      (45\u201353)"
+    },
+    "48": {
+      "n_gt": 373,
+      "n_detected": 335,
+      "det_rate": 0.8981,
+      "mean_err_px": 19.3,
+      "med_err_px": 15.3,
+      "mean_err_norm": 0.00876,
+      "group": "Hash top      (45\u201353)"
+    },
+    "49": {
+      "n_gt": 349,
+      "n_detected": 343,
+      "det_rate": 0.9828,
+      "mean_err_px": 30.7,
+      "med_err_px": 24.04,
+      "mean_err_norm": 0.01394,
+      "group": "Hash top      (45\u201353)"
+    },
+    "50": {
+      "n_gt": 265,
+      "n_detected": 253,
+      "det_rate": 0.9547,
+      "mean_err_px": 31.68,
+      "med_err_px": 17.05,
+      "mean_err_norm": 0.01438,
+      "group": "Hash top      (45\u201353)"
+    },
+    "51": {
+      "n_gt": 172,
+      "n_detected": 145,
+      "det_rate": 0.843,
+      "mean_err_px": 20.48,
+      "med_err_px": 17.73,
+      "mean_err_norm": 0.0093,
+      "group": "Hash top      (45\u201353)"
+    },
+    "52": {
+      "n_gt": 241,
+      "n_detected": 165,
+      "det_rate": 0.6846,
+      "mean_err_px": 190.65,
+      "med_err_px": 48.96,
+      "mean_err_norm": 0.08654,
+      "group": "Hash top      (45\u201353)"
+    },
+    "53": {
+      "n_gt": 248,
+      "n_detected": 171,
+      "det_rate": 0.6895,
+      "mean_err_px": 287.1,
+      "med_err_px": 188.23,
+      "mean_err_norm": 0.13033,
+      "group": "Hash top      (45\u201353)"
+    },
+    "54": {
+      "n_gt": 200,
+      "n_detected": 200,
+      "det_rate": 1.0,
+      "mean_err_px": 240.74,
+      "med_err_px": 143.24,
+      "mean_err_norm": 0.10928,
+      "group": "Hash bot      (54\u201362)"
+    },
+    "55": {
+      "n_gt": 330,
+      "n_detected": 221,
+      "det_rate": 0.6697,
+      "mean_err_px": 293.19,
+      "med_err_px": 113.67,
+      "mean_err_norm": 0.13309,
+      "group": "Hash bot      (54\u201362)"
+    },
+    "56": {
+      "n_gt": 304,
+      "n_detected": 224,
+      "det_rate": 0.7368,
+      "mean_err_px": 38.87,
+      "med_err_px": 35.62,
+      "mean_err_norm": 0.01765,
+      "group": "Hash bot      (54\u201362)"
+    },
+    "57": {
+      "n_gt": 381,
+      "n_detected": 377,
+      "det_rate": 0.9895,
+      "mean_err_px": 20.5,
+      "med_err_px": 17.88,
+      "mean_err_norm": 0.0093,
+      "group": "Hash bot      (54\u201362)"
+    },
+    "58": {
+      "n_gt": 342,
+      "n_detected": 336,
+      "det_rate": 0.9825,
+      "mean_err_px": 28.71,
+      "med_err_px": 15.29,
+      "mean_err_norm": 0.01303,
+      "group": "Hash bot      (54\u201362)"
+    },
+    "59": {
+      "n_gt": 267,
+      "n_detected": 253,
+      "det_rate": 0.9476,
+      "mean_err_px": 33.66,
+      "med_err_px": 21.47,
+      "mean_err_norm": 0.01528,
+      "group": "Hash bot      (54\u201362)"
+    },
+    "60": {
+      "n_gt": 201,
+      "n_detected": 126,
+      "det_rate": 0.6269,
+      "mean_err_px": 51.05,
+      "med_err_px": 26.15,
+      "mean_err_norm": 0.02318,
+      "group": "Hash bot      (54\u201362)"
+    },
+    "61": {
+      "n_gt": 248,
+      "n_detected": 172,
+      "det_rate": 0.6935,
+      "mean_err_px": 304.06,
+      "med_err_px": 210.09,
+      "mean_err_norm": 0.13803,
+      "group": "Hash bot      (54\u201362)"
+    },
+    "62": {
+      "n_gt": 245,
+      "n_detected": 132,
+      "det_rate": 0.5388,
+      "mean_err_px": 196.91,
+      "med_err_px": 123.83,
+      "mean_err_norm": 0.08939,
+      "group": "Hash bot      (54\u201362)"
+    }
+  }
+}

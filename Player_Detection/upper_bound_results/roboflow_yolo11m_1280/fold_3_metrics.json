@@ -1,0 +1,43 @@
+{
+  "fold": 3,
+  "overall": {
+    "mAP50": 0.9811,
+    "mAP50-95": 0.7237,
+    "precision": 0.9655,
+    "recall": 0.9594,
+    "ms_per_img": 122.6,
+    "fps": 8.2
+  },
+  "per_class": {
+    "defense": {
+      "mAP50": 0.9806,
+      "mAP50-95": 0.7227,
+      "precision": 0.9564,
+      "recall": 0.9543
+    },
+    "oline": {
+      "mAP50": 0.9821,
+      "mAP50-95": 0.7109,
+      "precision": 0.9683,
+      "recall": 0.9448
+    },
+    "qb": {
+      "mAP50": 0.995,
+      "mAP50-95": 0.7477,
+      "precision": 0.9596,
+      "recall": 1.0
+    },
+    "ref": {
+      "mAP50": 0.9834,
+      "mAP50-95": 0.6925,
+      "precision": 0.9832,
+      "recall": 0.9811
+    },
+    "skill": {
+      "mAP50": 0.9646,
+      "mAP50-95": 0.7447,
+      "precision": 0.9601,
+      "recall": 0.9165
+    }
+  }
+}

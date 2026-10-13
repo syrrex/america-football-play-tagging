@@ -1,0 +1,146 @@
+{
+  "config": {
+    "weights": "finetune_quarter_results_1280/Q4/train/weights/best.pt",
+    "quarter": "Q4",
+    "conf": 0.25
+  },
+  "player_projection": {
+    "n_frames_used": 28,
+    "n_frames_skipped": 0,
+    "n_players": 747,
+    "mean_err_yd": 0.782,
+    "med_err_yd": 0.571,
+    "p90_err_yd": 1.618
+  },
+  "keypoint_field_error": {
+    "n_frames_used": 776,
+    "n_frames_skipped": 0,
+    "n_points": 14893,
+    "det_rate": 0.908,
+    "avg_n_correspondences": 20.1,
+    "n_below_min_correspondences": 0,
+    "pct_below_min_correspondences": 0.0,
+    "mean_err_yd": 1.341,
+    "med_err_yd": 0.746,
+    "p90_err_yd": 2.315
+  },
+  "threshold_sweep": [
+    {
+      "conf": 0.1,
+      "n_frames_used": 776,
+      "n_frames_skipped": 0,
+      "n_points": 15789,
+      "det_rate": 0.9626,
+      "avg_n_correspondences": 23.2,
+      "n_below_min_correspondences": 0,
+      "pct_below_min_correspondences": 0.0,
+      "mean_err_yd": 1.46,
+      "med_err_yd": 0.772,
+      "p90_err_yd": 2.436
+    },
+    {
+      "conf": 0.25,
+      "n_frames_used": 776,
+      "n_frames_skipped": 0,
+      "n_points": 14893,
+      "det_rate": 0.908,
+      "avg_n_correspondences": 20.1,
+      "n_below_min_correspondences": 0,
+      "pct_below_min_correspondences": 0.0,
+      "mean_err_yd": 1.341,
+      "med_err_yd": 0.746,
+      "p90_err_yd": 2.315
+    },
+    {
+      "conf": 0.4,
+      "n_frames_used": 776,
+      "n_frames_skipped": 0,
+      "n_points": 13753,
+      "det_rate": 0.8385,
+      "avg_n_correspondences": 18.0,
+      "n_below_min_correspondences": 0,
+      "pct_below_min_correspondences": 0.0,
+      "mean_err_yd": 1.237,
+      "med_err_yd": 0.716,
+      "p90_err_yd": 2.208
+    },
+    {
+      "conf": 0.55,
+      "n_frames_used": 776,
+      "n_frames_skipped": 0,
+      "n_points": 12416,
+      "det_rate": 0.757,
+      "avg_n_correspondences": 16.1,
+      "n_below_min_correspondences": 0,
+      "pct_below_min_correspondences": 0.0,
+      "mean_err_yd": 1.131,
+      "med_err_yd": 0.693,
+      "p90_err_yd": 2.053
+    },
+    {
+      "conf": 0.7,
+      "n_frames_used": 776,
+      "n_frames_skipped": 0,
+      "n_points": 10855,
+      "det_rate": 0.6618,
+      "avg_n_correspondences": 14.0,
+      "n_below_min_correspondences": 0,
+      "pct_below_min_correspondences": 0.0,
+      "mean_err_yd": 1.005,
+      "med_err_yd": 0.662,
+      "p90_err_yd": 1.876
+    },
+    {
+      "conf": 0.8,
+      "n_frames_used": 776,
+      "n_frames_skipped": 0,
+      "n_points": 9521,
+      "det_rate": 0.5805,
+      "avg_n_correspondences": 12.3,
+      "n_below_min_correspondences": 0,
+      "pct_below_min_correspondences": 0.0,
+      "mean_err_yd": 0.917,
+      "med_err_yd": 0.643,
+      "p90_err_yd": 1.758
+    },
+    {
+      "conf": 0.85,
+      "n_frames_used": 776,
+      "n_frames_skipped": 0,
+      "n_points": 8359,
+      "det_rate": 0.5096,
+      "avg_n_correspondences": 10.8,
+      "n_below_min_correspondences": 1,
+      "pct_below_min_correspondences": 0.0013,
+      "mean_err_yd": 0.893,
+      "med_err_yd": 0.63,
+      "p90_err_yd": 1.711
+    },
+    {
+      "conf": 0.9,
+      "n_frames_used": 776,
+      "n_frames_skipped": 0,
+      "n_points": 6801,
+      "det_rate": 0.4146,
+      "avg_n_correspondences": 8.8,
+      "n_below_min_correspondences": 20,
+      "pct_below_min_correspondences": 0.0258,
+      "mean_err_yd": 0.845,
+      "med_err_yd": 0.607,
+      "p90_err_yd": 1.654
+    },
+    {
+      "conf": 0.95,
+      "n_frames_used": 776,
+      "n_frames_skipped": 0,
+      "n_points": 3543,
+      "det_rate": 0.216,
+      "avg_n_correspondences": 4.6,
+      "n_below_min_correspondences": 385,
+      "pct_below_min_correspondences": 0.4961,
+      "mean_err_yd": 0.673,
+      "med_err_yd": 0.544,
+      "p90_err_yd": 1.401
+    }
+  ]
+}

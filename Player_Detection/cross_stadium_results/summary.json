@@ -1,0 +1,494 @@
+{
+  "1_640": {
+    "overall": {
+      "mAP50": 0.0391,
+      "mAP50-95": 0.0165,
+      "precision": 0.0412,
+      "recall": 0.2116,
+      "fps": 18.2
+    },
+    "per_class": {
+      "defense": {
+        "mAP50": 0.1157,
+        "mAP50-95": 0.0548,
+        "precision": 0.0758,
+        "recall": 0.8667
+      },
+      "oline": {
+        "mAP50": 0.072,
+        "mAP50-95": 0.0248,
+        "precision": 0.1146,
+        "recall": 0.1704
+      },
+      "qb": {
+        "mAP50": 0.0,
+        "mAP50-95": 0.0,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "ref": {
+        "mAP50": 0.008,
+        "mAP50-95": 0.0028,
+        "precision": 0.0155,
+        "recall": 0.0208
+      },
+      "skill": {
+        "mAP50": 0.0,
+        "mAP50-95": 0.0,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  "1_1280": {
+    "overall": {
+      "mAP50": 0.0279,
+      "mAP50-95": 0.0129,
+      "precision": 0.6264,
+      "recall": 0.1362,
+      "fps": 24.7
+    },
+    "per_class": {
+      "defense": {
+        "mAP50": 0.1234,
+        "mAP50-95": 0.0628,
+        "precision": 0.1322,
+        "recall": 0.6809
+      },
+      "oline": {
+        "mAP50": 0.0162,
+        "mAP50-95": 0.0016,
+        "precision": 1.0,
+        "recall": 0.0
+      },
+      "qb": {
+        "mAP50": 0.0,
+        "mAP50-95": 0.0,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "ref": {
+        "mAP50": 0.0,
+        "mAP50-95": 0.0,
+        "precision": 1.0,
+        "recall": 0.0
+      },
+      "skill": {
+        "mAP50": 0.0,
+        "mAP50-95": 0.0,
+        "precision": 1.0,
+        "recall": 0.0
+      }
+    }
+  },
+  "2_640": {
+    "overall": {
+      "mAP50": 0.6128,
+      "mAP50-95": 0.3611,
+      "precision": 0.683,
+      "recall": 0.5316,
+      "fps": 29.4
+    },
+    "per_class": {
+      "defense": {
+        "mAP50": 0.6777,
+        "mAP50-95": 0.4247,
+        "precision": 0.6948,
+        "recall": 0.6027
+      },
+      "oline": {
+        "mAP50": 0.444,
+        "mAP50-95": 0.2031,
+        "precision": 0.521,
+        "recall": 0.4199
+      },
+      "qb": {
+        "mAP50": 0.5185,
+        "mAP50-95": 0.3015,
+        "precision": 0.7219,
+        "recall": 0.4206
+      },
+      "ref": {
+        "mAP50": 0.7123,
+        "mAP50-95": 0.3969,
+        "precision": 0.7714,
+        "recall": 0.6395
+      },
+      "skill": {
+        "mAP50": 0.7118,
+        "mAP50-95": 0.4793,
+        "precision": 0.706,
+        "recall": 0.5752
+      }
+    }
+  },
+  "2_1280": {
+    "overall": {
+      "mAP50": 0.7411,
+      "mAP50-95": 0.4561,
+      "precision": 0.7205,
+      "recall": 0.6479,
+      "fps": 30.8
+    },
+    "per_class": {
+      "defense": {
+        "mAP50": 0.8249,
+        "mAP50-95": 0.5392,
+        "precision": 0.7622,
+        "recall": 0.7849
+      },
+      "oline": {
+        "mAP50": 0.7383,
+        "mAP50-95": 0.3864,
+        "precision": 0.7353,
+        "recall": 0.6714
+      },
+      "qb": {
+        "mAP50": 0.5858,
+        "mAP50-95": 0.3786,
+        "precision": 0.6758,
+        "recall": 0.4206
+      },
+      "ref": {
+        "mAP50": 0.7875,
+        "mAP50-95": 0.4496,
+        "precision": 0.7466,
+        "recall": 0.7106
+      },
+      "skill": {
+        "mAP50": 0.7688,
+        "mAP50-95": 0.5269,
+        "precision": 0.6826,
+        "recall": 0.6523
+      }
+    }
+  },
+  "3a_640": {
+    "overall": {
+      "mAP50": 0.8321,
+      "mAP50-95": 0.4917,
+      "precision": 0.8632,
+      "recall": 0.7303,
+      "fps": 28.4
+    },
+    "per_class": {
+      "defense": {
+        "mAP50": 0.8427,
+        "mAP50-95": 0.5016,
+        "precision": 0.8242,
+        "recall": 0.7796
+      },
+      "oline": {
+        "mAP50": 0.8075,
+        "mAP50-95": 0.4059,
+        "precision": 0.784,
+        "recall": 0.7748
+      },
+      "qb": {
+        "mAP50": 0.8649,
+        "mAP50-95": 0.5347,
+        "precision": 0.973,
+        "recall": 0.6735
+      },
+      "ref": {
+        "mAP50": 0.795,
+        "mAP50-95": 0.4325,
+        "precision": 0.9103,
+        "recall": 0.636
+      },
+      "skill": {
+        "mAP50": 0.8505,
+        "mAP50-95": 0.5835,
+        "precision": 0.8246,
+        "recall": 0.7876
+      }
+    }
+  },
+  "3a_1280": {
+    "overall": {
+      "mAP50": 0.8353,
+      "mAP50-95": 0.5169,
+      "precision": 0.8181,
+      "recall": 0.7409,
+      "fps": 29.8
+    },
+    "per_class": {
+      "defense": {
+        "mAP50": 0.8494,
+        "mAP50-95": 0.532,
+        "precision": 0.794,
+        "recall": 0.8016
+      },
+      "oline": {
+        "mAP50": 0.8392,
+        "mAP50-95": 0.4733,
+        "precision": 0.8099,
+        "recall": 0.8195
+      },
+      "qb": {
+        "mAP50": 0.8033,
+        "mAP50-95": 0.5014,
+        "precision": 0.8242,
+        "recall": 0.5981
+      },
+      "ref": {
+        "mAP50": 0.854,
+        "mAP50-95": 0.48,
+        "precision": 0.9099,
+        "recall": 0.7244
+      },
+      "skill": {
+        "mAP50": 0.8304,
+        "mAP50-95": 0.5978,
+        "precision": 0.7526,
+        "recall": 0.7607
+      }
+    }
+  },
+  "3b_640": {
+    "overall": {
+      "mAP50": 0.8846,
+      "mAP50-95": 0.541,
+      "precision": 0.8799,
+      "recall": 0.8016,
+      "fps": 27.7
+    },
+    "per_class": {
+      "defense": {
+        "mAP50": 0.9047,
+        "mAP50-95": 0.5599,
+        "precision": 0.8769,
+        "recall": 0.8676
+      },
+      "oline": {
+        "mAP50": 0.8483,
+        "mAP50-95": 0.453,
+        "precision": 0.8293,
+        "recall": 0.8179
+      },
+      "qb": {
+        "mAP50": 0.936,
+        "mAP50-95": 0.5921,
+        "precision": 0.8773,
+        "recall": 0.8505
+      },
+      "ref": {
+        "mAP50": 0.8015,
+        "mAP50-95": 0.4462,
+        "precision": 0.9173,
+        "recall": 0.5963
+      },
+      "skill": {
+        "mAP50": 0.9324,
+        "mAP50-95": 0.6539,
+        "precision": 0.8987,
+        "recall": 0.8759
+      }
+    }
+  },
+  "3b_1280": {
+    "overall": {
+      "mAP50": 0.9167,
+      "mAP50-95": 0.5754,
+      "precision": 0.8936,
+      "recall": 0.8596,
+      "fps": 30.9
+    },
+    "per_class": {
+      "defense": {
+        "mAP50": 0.9375,
+        "mAP50-95": 0.6048,
+        "precision": 0.8957,
+        "recall": 0.8987
+      },
+      "oline": {
+        "mAP50": 0.8793,
+        "mAP50-95": 0.4956,
+        "precision": 0.8267,
+        "recall": 0.8884
+      },
+      "qb": {
+        "mAP50": 0.9608,
+        "mAP50-95": 0.6143,
+        "precision": 0.9151,
+        "recall": 0.9159
+      },
+      "ref": {
+        "mAP50": 0.8668,
+        "mAP50-95": 0.4869,
+        "precision": 0.9165,
+        "recall": 0.7226
+      },
+      "skill": {
+        "mAP50": 0.939,
+        "mAP50-95": 0.6756,
+        "precision": 0.9141,
+        "recall": 0.8722
+      }
+    }
+  },
+  "4a_640": {
+    "overall": {
+      "mAP50": 0.8343,
+      "mAP50-95": 0.4919,
+      "precision": 0.869,
+      "recall": 0.7318,
+      "fps": 29.5
+    },
+    "per_class": {
+      "defense": {
+        "mAP50": 0.8446,
+        "mAP50-95": 0.5021,
+        "precision": 0.8192,
+        "recall": 0.7813
+      },
+      "oline": {
+        "mAP50": 0.8082,
+        "mAP50-95": 0.4056,
+        "precision": 0.7916,
+        "recall": 0.7769
+      },
+      "qb": {
+        "mAP50": 0.8678,
+        "mAP50-95": 0.5338,
+        "precision": 0.9864,
+        "recall": 0.6789
+      },
+      "ref": {
+        "mAP50": 0.7993,
+        "mAP50-95": 0.4354,
+        "precision": 0.9151,
+        "recall": 0.636
+      },
+      "skill": {
+        "mAP50": 0.8518,
+        "mAP50-95": 0.5827,
+        "precision": 0.8329,
+        "recall": 0.7857
+      }
+    }
+  },
+  "4a_1280": {
+    "overall": {
+      "mAP50": 0.7144,
+      "mAP50-95": 0.4165,
+      "precision": 0.705,
+      "recall": 0.6219,
+      "fps": 30.0
+    },
+    "per_class": {
+      "defense": {
+        "mAP50": 0.8052,
+        "mAP50-95": 0.4956,
+        "precision": 0.7436,
+        "recall": 0.7424
+      },
+      "oline": {
+        "mAP50": 0.7432,
+        "mAP50-95": 0.3666,
+        "precision": 0.6574,
+        "recall": 0.7363
+      },
+      "qb": {
+        "mAP50": 0.3653,
+        "mAP50-95": 0.2211,
+        "precision": 0.4995,
+        "recall": 0.1959
+      },
+      "ref": {
+        "mAP50": 0.8623,
+        "mAP50-95": 0.4425,
+        "precision": 0.8845,
+        "recall": 0.73
+      },
+      "skill": {
+        "mAP50": 0.7962,
+        "mAP50-95": 0.5566,
+        "precision": 0.7403,
+        "recall": 0.7049
+      }
+    }
+  },
+  "4b_640": {
+    "overall": {
+      "mAP50": 0.8625,
+      "mAP50-95": 0.4814,
+      "precision": 0.8521,
+      "recall": 0.7582,
+      "fps": 28.3
+    },
+    "per_class": {
+      "defense": {
+        "mAP50": 0.8883,
+        "mAP50-95": 0.5147,
+        "precision": 0.8316,
+        "recall": 0.8578
+      },
+      "oline": {
+        "mAP50": 0.7703,
+        "mAP50-95": 0.3469,
+        "precision": 0.771,
+        "recall": 0.6714
+      },
+      "qb": {
+        "mAP50": 0.8842,
+        "mAP50-95": 0.5062,
+        "precision": 0.8865,
+        "recall": 0.757
+      },
+      "ref": {
+        "mAP50": 0.8649,
+        "mAP50-95": 0.4435,
+        "precision": 0.8976,
+        "recall": 0.6967
+      },
+      "skill": {
+        "mAP50": 0.9047,
+        "mAP50-95": 0.5956,
+        "precision": 0.8737,
+        "recall": 0.8083
+      }
+    }
+  },
+  "4b_1280": {
+    "overall": {
+      "mAP50": 0.9062,
+      "mAP50-95": 0.5566,
+      "precision": 0.8628,
+      "recall": 0.8482,
+      "fps": 30.6
+    },
+    "per_class": {
+      "defense": {
+        "mAP50": 0.951,
+        "mAP50-95": 0.5965,
+        "precision": 0.923,
+        "recall": 0.8844
+      },
+      "oline": {
+        "mAP50": 0.8783,
+        "mAP50-95": 0.4793,
+        "precision": 0.863,
+        "recall": 0.8621
+      },
+      "qb": {
+        "mAP50": 0.8912,
+        "mAP50-95": 0.5757,
+        "precision": 0.7258,
+        "recall": 0.9439
+      },
+      "ref": {
+        "mAP50": 0.8742,
+        "mAP50-95": 0.4679,
+        "precision": 0.8636,
+        "recall": 0.7459
+      },
+      "skill": {
+        "mAP50": 0.9363,
+        "mAP50-95": 0.6637,
+        "precision": 0.9384,
+        "recall": 0.8045
+      }
+    }
+  }
+}
